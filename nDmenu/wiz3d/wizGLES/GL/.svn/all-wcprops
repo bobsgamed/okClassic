@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/Software/Brio/Brio2/!svn/ver/1628/TRUNK/ThirdParty/MagicEyes/Include/GLES
+END
+egltypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/Software/Brio/Brio2/!svn/ver/275/TRUNK/ThirdParty/MagicEyes/Include/GLES/egltypes.h
+END
+egl.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/Software/Brio/Brio2/!svn/ver/275/TRUNK/ThirdParty/MagicEyes/Include/GLES/egl.h
+END
+libogl.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/Software/Brio/Brio2/!svn/ver/1628/TRUNK/ThirdParty/MagicEyes/Include/GLES/libogl.h
+END
+glext.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/Software/Brio/Brio2/!svn/ver/1628/TRUNK/ThirdParty/MagicEyes/Include/GLES/glext.h
+END
+gl.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/Software/Brio/Brio2/!svn/ver/275/TRUNK/ThirdParty/MagicEyes/Include/GLES/gl.h
+END

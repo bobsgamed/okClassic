@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1235245697 source:/home/pickle/smb4k/Sempron/media/devel/source/wiz/wiz3D/nanoGL/eglwrap.cpp
+	"GL/egl.h"
+	"GL/glesinterface.h"
+	"GL/gl.h"
+	<string.h>
+
+1231710205 /home/pickle/smb4k/Sempron/media/devel/source/wiz/wiz3D/nanoGL/GL/egl.h
+
+1231710205 /home/pickle/smb4k/Sempron/media/devel/source/wiz/wiz3D/nanoGL/GL/glesinterface.h
+
+1236045416 /home/pickle/smb4k/Sempron/media/devel/source/wiz/wiz3D/nanoGL/GL/gl.h
+
+1242849121 source:/home/pickle/smb4k/Sempron/media/devel/source/wiz/wiz3D/nanoGL/nanoWrap.cpp
+	<stdio.h>
+	<string.h>
+	"GL/gl.h"
+	"GL/glesinterface.h"
+
+1242845543 source:/home/pickle/smb4k/Sempron/media/devel/source/wiz/wiz3D/nanoGL/nanogl.cpp
+	<dlfcn.h>
+	<string.h>
+	"GL/nanogl.h"
+	"GL/glesinterface.h"
+	"GL/glesordinals.h"
+	"GL/gl.h"
+
+1231710205 /home/pickle/smb4k/Sempron/media/devel/source/wiz/wiz3D/nanoGL/GL/nanogl.h
+
+1235246505 /home/pickle/smb4k/Sempron/media/devel/source/wiz/wiz3D/nanoGL/GL/glesordinals.h
+	<string>
+

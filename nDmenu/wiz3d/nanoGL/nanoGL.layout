@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release" />
+	<File name="GL/egl.h" open="0" top="0" tabpos="0">
+		<Cursor position="3084" topLine="84" />
+	</File>
+	<File name="GL/gl.h" open="1" top="0" tabpos="3">
+		<Cursor position="21128" topLine="577" />
+	</File>
+	<File name="GL/glesinterface.h" open="1" top="0" tabpos="1">
+		<Cursor position="9828" topLine="162" />
+	</File>
+	<File name="GL/glesordinals.h" open="1" top="0" tabpos="2">
+		<Cursor position="3958" topLine="187" />
+	</File>
+	<File name="eglwrap.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="5994" topLine="167" />
+	</File>
+	<File name="nanoWrap.cpp" open="1" top="1" tabpos="5">
+		<Cursor position="25291" topLine="921" />
+	</File>
+	<File name="nanogl.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="1929" topLine="50" />
+	</File>
+</CodeBlocks_layout_file>

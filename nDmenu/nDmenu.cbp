@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="nDmenu" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="host">
+				<Option output=".host\nDmenu" prefix_auto="1" extension_auto="1" />
+				<Option object_output=".host" />
+				<Option type="1" />
+				<Option compiler="gnu_gcc_compiler__gp2x_wiz_libs" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add directory="C:\wiz\nDmenu\smpeg" />
+					<Add directory="C:\wiz\nDmenu\OGLES\Include" />
+					<Add directory="C:\GPH_SDK\DGE\include" />
+					<Add directory="C:\GPH_SDK\DGE\include\windows" />
+					<Add directory="C:\GPH_SDK\DGE\include\SDL" />
+					<Add directory="C:\GPH_SDK\include" />
+				</Compiler>
+				<Linker>
+					<Add option="-lmingw32" />
+					<Add option="-lopengl32" />
+					<Add option="-lSDLmain" />
+					<Add option="-lSDL" />
+					<Add option="-lSDL_image" />
+					<Add option="-lSDL_mixer" />
+					<Add option="-lSDL_ttf" />
+					<Add option="-lpng" />
+					<Add option="-lz" />
+					<Add option="-lpthread" />
+					<Add option="-lfreetype" />
+					<Add library="C:\wiz\nDmenu\OGLES\WindowsX86\Lib\libEGL.lib" />
+					<Add library="C:\wiz\nDmenu\OGLES\WindowsX86\Lib\libgles_cm.lib" />
+					<Add directory="C:\wiz\nDmenu\OGLES\WindowsX86\Lib" />
+					<Add directory="C:\GPH_SDK\DGE\lib\host" />
+					<Add directory="C:\GPH_SDK\lib\host" />
+				</Linker>
+				<MakeCommands>
+					<Build command="$make CROSS_COMPILE=mingw32 -f $makefile $target" />
+					<CompileFile command="$make CROSS_COMPILE=mingw32 -f $makefile $file" />
+					<Clean command="$make CROSS_COMPILE=mingw32 -f $makefile clean$target" />
+					<DistClean command="$make -f $makefile distclean$target" />
+					<AskRebuildNeeded command="$make CROSS_COMPILE=mingw32 -q -f $makefile $target" />
+					<SilentBuild command="$make CROSS_COMPILE=mingw32 -s -f $makefile $target" />
+				</MakeCommands>
+			</Target>
+			<Target title="target">
+				<Option output=".target\nDmenu.gpe" prefix_auto="1" extension_auto="0" />
+				<Option object_output=".target" />
+				<Option type="1" />
+				<Option compiler="gnu_arm_gcc_compiler__gp2x_wiz_libs" />
+				<Compiler>
+					<Add option="-O3" />
+					<Add option="-Wall" />
+					<Add directory="C:\wiz\nDmenu\wiz3d\wizGLES" />
+					<Add directory="C:\GPH_SDK\DGE\include" />
+					<Add directory="C:\GPH_SDK\DGE\include\SDL" />
+					<Add directory="C:\GPH_SDK\include" />
+					<Add directory="C:\wiz\nDmenu\smpeg" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-lglport" />
+					<Add option="-lopengles_lite" />
+					<Add option="-lsmpeg" />
+					<Add option="-lSDLmain" />
+					<Add option="-lSDL" />
+					<Add option="-lSDL_image" />
+					<Add option="-lSDL_mixer" />
+					<Add option="-lSDL_ttf" />
+					<Add option="-lpng" />
+					<Add option="-lz" />
+					<Add option="-lpthread" />
+					<Add option="-lts" />
+					<Add option="-lfreetype" />
+					<Add directory="C:\GPH_SDK\DGE\lib\target" />
+					<Add directory="C:\GPH_SDK\lib\target" />
+				</Linker>
+				<MakeCommands>
+					<Build command="$make CROSS_COMPILE=arm-linux -f $makefile $target" />
+					<CompileFile command="$make CROSS_COMPILE=arm-linux -f $makefile $file" />
+					<Clean command="$make CROSS_COMPILE=arm-linux -f $makefile clean$target" />
+					<DistClean command="$make -f $makefile distclean$target" />
+					<AskRebuildNeeded command="$make CROSS_COMPILE=arm-linux -q -f $makefile $target" />
+					<SilentBuild command="$make CROSS_COMPILE=arm-linux -s -f $makefile $target" />
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="GLee.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Makefile" />
+		<Unit filename="bgmain.c">
+			<Option compilerVar="CC" />
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="nD_GL.h" />
+		<Unit filename="nD_sound.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="nD_types.h" />
+		<Unit filename="smpeg\MPEG.cpp" />
+		<Unit filename="smpeg\MPEG.h" />
+		<Unit filename="smpeg\MPEGaction.h" />
+		<Unit filename="smpeg\MPEGaudio.h" />
+		<Unit filename="smpeg\MPEGerror.h" />
+		<Unit filename="smpeg\MPEGfilter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="smpeg\MPEGfilter.h" />
+		<Unit filename="smpeg\MPEGlist.cpp" />
+		<Unit filename="smpeg\MPEGlist.h" />
+		<Unit filename="smpeg\MPEGring.cpp" />
+		<Unit filename="smpeg\MPEGring.h" />
+		<Unit filename="smpeg\MPEGstream.cpp" />
+		<Unit filename="smpeg\MPEGstream.h" />
+		<Unit filename="smpeg\MPEGsystem.cpp" />
+		<Unit filename="smpeg\MPEGsystem.h" />
+		<Unit filename="smpeg\MPEGvideo.h" />
+		<Unit filename="smpeg\audio\MPEGaudio.cpp" />
+		<Unit filename="smpeg\audio\bitwindow.cpp" />
+		<Unit filename="smpeg\audio\filter.cpp" />
+		<Unit filename="smpeg\audio\filter_2.cpp" />
+		<Unit filename="smpeg\audio\hufftable.cpp" />
+		<Unit filename="smpeg\audio\mpeglayer1.cpp" />
+		<Unit filename="smpeg\audio\mpeglayer2.cpp" />
+		<Unit filename="smpeg\audio\mpeglayer3.cpp" />
+		<Unit filename="smpeg\audio\mpegtable.cpp" />
+		<Unit filename="smpeg\audio\mpegtoraw.cpp" />
+		<Unit filename="smpeg\smpeg.cpp" />
+		<Unit filename="smpeg\smpeg.h" />
+		<Unit filename="smpeg\video\MPEGvideo.cpp" />
+		<Unit filename="smpeg\video\decoders.cpp" />
+		<Unit filename="smpeg\video\decoders.h" />
+		<Unit filename="smpeg\video\dither.h" />
+		<Unit filename="smpeg\video\floatdct.cpp" />
+		<Unit filename="smpeg\video\gdith.cpp" />
+		<Unit filename="smpeg\video\jrevdct.cpp" />
+		<Unit filename="smpeg\video\motionvec.cpp" />
+		<Unit filename="smpeg\video\parseblock.cpp" />
+		<Unit filename="smpeg\video\proto.h" />
+		<Unit filename="smpeg\video\readfile.cpp" />
+		<Unit filename="smpeg\video\util.cpp" />
+		<Unit filename="smpeg\video\util.h" />
+		<Unit filename="smpeg\video\vhar128.cpp" />
+		<Unit filename="smpeg\video\vhar128.h" />
+		<Unit filename="smpeg\video\video.cpp" />
+		<Unit filename="smpeg\video\video.h" />
+		<Unit filename="wiz3d\nanoGL\eglwrap.cpp">
+			<Option target="target" />
+		</Unit>
+		<Unit filename="wiz3d\nanoGL\nanoWrap.cpp">
+			<Option target="target" />
+		</Unit>
+		<Unit filename="wiz3d\nanoGL\nanogl.cpp">
+			<Option target="target" />
+		</Unit>
+		<Unit filename="wiz3d\wizGLES\wizGLES.cpp">
+			<Option target="target" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger>
+				<remote_debugging target="target">
+					<options conn_type="0" serial_baud="115200" ip_address="192.168.0.20" ip_port="1234" />
+				</remote_debugging>
+			</debugger>
+			<lib_finder disable_auto="1" />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

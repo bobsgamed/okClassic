@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<BrowseTracker_layout_file>
+	<ActiveTarget name="host" />
+	<File name="main.c" open="1" top="1" tabpos="1">
+		<Cursor position="3635" topLine="0" />
+		<BrowseMarks positions="" />
+		<Book_Marks positions="12761,12918,12715,12887,16957,16922,17091,17123,18220,18237,18370,18401,16986,17160" />
+	</File>
+	<File name="nD_GL.h" open="1" top="0" tabpos="2">
+		<Cursor position="10942" topLine="0" />
+		<BrowseMarks positions="" />
+		<Book_Marks positions="" />
+	</File>
+</BrowseTracker_layout_file>

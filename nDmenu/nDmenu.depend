@@ -1,0 +1,952 @@
+# depslib dependency file v1.0
+1310608906 source:c:\wiz\ndmenu\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<math.h>
+	"SDL/SDL_image.h"
+	"SDL/SDL_types.h"
+	"SDL/SDL_config.h"
+	"SDL/SDL_error.h"
+	"SDL/SDL_events.h"
+	"SDL/SDL_framerate.h"
+	"SDL/SDL_imageFilter.h"
+	"SDL/SDL_joystick.h"
+	"SDL/SDL_keyboard.h"
+	"SDL/SDL_keysym.h"
+	"SDL/SDL_loadso.h"
+	"SDL/SDL_main.h"
+	"SDL/SDL_mouse.h"
+	"SDL/SDL_mutex.h"
+	"SDL/SDL_name.h"
+	"SDL/SDL_quit.h"
+	"SDL/SDL_rwops.h"
+	"SDL/SDL_thread.h"
+	"SDL/SDL_timer.h"
+	"inifile.h"
+	"SDL/SDL_ttf.h"
+	"smpeg/smpeg.h"
+	"nD_GL.h"
+
+1260438948 c:\gph_sdk\dge\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1260438948 c:\gph_sdk\dge\include\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1260438948 c:\gph_sdk\dge\include\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1260438948 c:\gph_sdk\dge\include\sdl\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_amiga.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1260438948 c:\gph_sdk\dge\include\sdl\sdl_platform.h
+
+1260438948 c:\gph_sdk\dge\include\sdl\sdl_config_amiga.h
+	"SDL_platform.h"
+
+1260438948 c:\gph_sdk\dge\include\sdl\sdl_config_dreamcast.h
+	"SDL_platform.h"
+
+1260438948 c:\gph_sdk\dge\include\sdl\sdl_config_macos.h
+	"SDL_platform.h"
+	<MacTypes.h>
+
+1260438948 c:\gph_sdk\dge\include\sdl\sdl_config_macosx.h
+	"SDL_platform.h"
+
+1260438948 c:\gph_sdk\dge\include\sdl\sdl_config_win32.h
+	"SDL_platform.h"
+
+1260438948 c:\gph_sdk\dge\include\sdl\sdl_config_os2.h
+	"SDL_platform.h"
+
+1260438948 c:\gph_sdk\dge\include\sdl\sdl_config_minimal.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1260438948 c:\gph_sdk\dge\include\windows\iconv.h
+	"iconv.h"
+	<stddef.h>
+	<errno.h>
+
+1260439250 c:\gph_sdk\dge\include\begin_code.h
+
+1260439250 c:\gph_sdk\dge\include\close_code.h
+
+1260438948 c:\gph_sdk\dge\include\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1260438948 c:\gph_sdk\dge\include\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1260438948 c:\gph_sdk\dge\include\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1260438948 c:\gph_sdk\dge\include\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1260438948 c:\gph_sdk\dge\include\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1260438948 c:\gph_sdk\dge\include\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1260438948 c:\gph_sdk\dge\include\sdl\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1260438948 c:\gph_sdk\dge\include\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1260438948 c:\gph_sdk\dge\include\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1260438948 c:\gph_sdk\dge\include\sdl\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1260438948 c:\gph_sdk\dge\include\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1261120008 c:\gph_sdk\dge\include\sdl\sdl_keysym.h
+
+1260438948 c:\gph_sdk\dge\include\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1260438948 c:\gph_sdk\dge\include\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"pollux_fb_ioctl.h"
+	"close_code.h"
+
+1260439250 c:\gph_sdk\dge\include\pollux_fb_ioctl.h
+	"pollux_fb_cfg.h"
+
+1260439250 c:\gph_sdk\dge\include\pollux_fb_cfg.h
+
+1260438948 c:\gph_sdk\dge\include\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1260438948 c:\gph_sdk\dge\include\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1260438948 c:\gph_sdk\dge\include\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1260438948 c:\gph_sdk\dge\include\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1260438948 c:\gph_sdk\dge\include\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1260438948 c:\gph_sdk\dge\include\sdl\sdl_mixer.h
+	"SDL_types.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1260438948 c:\gph_sdk\dge\include\sdl\sdl_types.h
+	"SDL_stdinc.h"
+
+1221826984 c:\gph_sdk\include\smpeg\smpeg.h
+	"SDL.h"
+	"SDL_mutex.h"
+	"SDL_audio.h"
+	"MPEGfilter.h"
+
+1221826984 c:\gph_sdk\include\smpeg\mpegfilter.h
+
+1260439250 c:\gph_sdk\dge\include\dge_drm.h
+
+1261120890 c:\gph_sdk\dge\include\dge_file.h
+	<stdio.h>
+	<string.h>
+
+1261120890 c:\gph_sdk\dge\include\dge_fixed.h
+	"../../Display/OpenGLES/gl.h"
+	"OpenGLES/gl.h"
+
+1260438948 c:\gph_sdk\dge\include\opengles\gl.h
+
+1261120890 c:\gph_sdk\dge\include\dge_font.h
+	"SDL_ttf.h"
+	<string.h>
+	<memory.h>
+	<iconv.h>
+	"./qtype4/qtype4.h"
+
+1260438948 c:\gph_sdk\dge\include\sdl\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1261120836 c:\gph_sdk\dge\include\dge_frame.h
+
+1260439250 c:\gph_sdk\dge\include\dge_input.h
+
+1260439250 c:\gph_sdk\dge\include\dge_log.h
+	<stdio.h>
+
+1261120840 c:\gph_sdk\dge\include\dge_matrix.h
+	"DGE_Vector.h"
+	<math.h>
+	<memory.h>
+
+1261120770 c:\gph_sdk\dge\include\dge_vector.h
+	<math.h>
+	<assert.h>
+
+1260439250 c:\gph_sdk\dge\include\dge_memory.h
+
+1260439250 c:\gph_sdk\dge\include\dge_network.h
+
+1261120806 c:\gph_sdk\dge\include\dge_publicfont.h
+	"SDL_ttf.h"
+	"../Display/DGE_Display.h"
+	"../3D/Math/DGE_Fixed.h"
+	"DGE_Display.h"
+	"DGE_Fixed.h"
+	<string.h>
+	<memory.h>
+	<malloc.h>
+
+1261120890 c:\gph_sdk\dge\include\dge_display.h
+	"../DGE_Systemdefine.h"
+	"SDL_opengl.h"
+	"OpenGLES/gl.h"
+	"OpenGLES/egl.h"
+	"OpenGLES/glext.h"
+	"../Panel/fake_os.h"
+
+1261120774 c:\gph_sdk\dge\include\dge_systemdefine.h
+
+1260438948 c:\gph_sdk\dge\include\sdl\sdl_opengl.h
+	"SDL_config.h"
+	<windows.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<gl.h>
+	<glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<windows.h>
+	<stddef.h>
+
+1260438948 c:\gph_sdk\dge\include\opengles\egl.h
+	"GLES/gl.h"
+
+1260438948 c:\gph_sdk\dge\include\opengles\glext.h
+
+1260438948 c:\gph_sdk\dge\include\panel\fake_os.h
+	<stdio.h>
+
+1260439250 c:\gph_sdk\dge\include\dge_quatenion.h
+	"DGE_Vector.h"
+	"DGE_Matrix.h"
+	<math.h>
+
+1261120794 c:\gph_sdk\dge\include\dge_render.h
+	"DGE_SurfaceManager.h"
+	<vector>
+
+1261120778 c:\gph_sdk\dge\include\dge_surfacemanager.h
+
+1261120786 c:\gph_sdk\dge\include\dge_sound.h
+	<SDL_mixer.h>
+
+1260438948 c:\gph_sdk\dge\include\sdl\sdl_byteorder.h
+	"SDL_endian.h"
+
+1260438948 c:\gph_sdk\dge\include\sdl\sdl_copying.h
+
+1260438948 c:\gph_sdk\dge\include\sdl\sdl_framerate.h
+	"SDL.h"
+
+1260438948 c:\gph_sdk\dge\include\sdl\sdl_getenv.h
+	"SDL_stdinc.h"
+
+1260438948 c:\gph_sdk\dge\include\sdl\sdl_gfxprimitives.h
+	<math.h>
+	"SDL.h"
+
+1260438948 c:\gph_sdk\dge\include\sdl\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1260438948 c:\gph_sdk\dge\include\sdl\sdl_imagefilter.h
+
+1260438948 c:\gph_sdk\dge\include\sdl\sdl_name.h
+
+1260438948 c:\gph_sdk\dge\include\sdl\sdl_rotozoom.h
+	<math.h>
+	"SDL.h"
+
+1260438948 c:\gph_sdk\dge\include\sdl\sdl_syswm.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_version.h"
+	"begin_code.h"
+	<X11/Xlib.h>
+	<X11/Xatom.h>
+	<microwin/nano-X.h>
+	<windows.h>
+	<sys/neutrino.h>
+	<Ph.h>
+	"close_code.h"
+
+1260438948 c:\gph_sdk\dge\include\sdl\sdl_wiz_dev.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1229243478 c:\gph_sdk\include\png.h
+	"zlib.h"
+	"pngconf.h"
+	<crtdbg.h>
+
+1216039418 c:\gph_sdk\include\zlib.h
+	"zconf.h"
+
+1216039418 c:\gph_sdk\include\zconf.h
+	<windows.h>
+	<sys/types.h>
+	<unistd.h>
+	<unixio.h>
+
+1229243478 c:\gph_sdk\include\pngconf.h
+	"pngusr.h"
+	"config.h"
+	<windows.h>
+	<stdio.h>
+	<stdio.h>
+	<sys/types.h>
+	<setjmp.h>
+	<strings.h>
+	<string.h>
+	<stdlib.h>
+	<fp.h>
+	<math.h>
+	<m68881.h>
+	<mem.h>
+	<alloc.h>
+	<malloc.h>
+	<time.h>
+	<dos.h>
+
+1216040864 c:\gph_sdk\include\inifile.h
+
+1216040276 c:\gph_sdk\include\mad.h
+
+1260438948 c:\gph_sdk\dge\include\sdl\sdl_gfxprimitives_font.h
+
+1301273988 c:\wiz\ndmenu\nd_includes.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<math.h>
+	"nD_types.h"
+	<opengles/egl.h>
+	<opengles/gl.h>
+	<SDL/SDL_syswm.h>
+	"glee.h"
+	<SDL/SDL.h>
+	"SDL/SDL_opengl.h"
+	"SDL/SDL_mixer.h"
+	"SDL/SDL_image.h"
+	"SDL/SDL_types.h"
+	"SDL/SDL_config.h"
+	"SDL/SDL_error.h"
+	"SDL/SDL_events.h"
+	"SDL/SDL_framerate.h"
+	"SDL/SDL_imageFilter.h"
+	"SDL/SDL_joystick.h"
+	"SDL/SDL_keyboard.h"
+	"SDL/SDL_keysym.h"
+	"SDL/SDL_loadso.h"
+	"SDL/SDL_main.h"
+	"SDL/SDL_mouse.h"
+	"SDL/SDL_mutex.h"
+	"SDL/SDL_name.h"
+	"SDL/SDL_quit.h"
+	"SDL/SDL_rwops.h"
+	"SDL/SDL_thread.h"
+	"SDL/SDL_timer.h"
+	"SDL/SDL_ttf.h"
+
+1301257710 c:\wiz\ndmenu\nd_types.h
+
+1234057582 c:\wiz\ndmenu\glee.h
+	<windows.h>
+	<GL/gl.h>
+	<OpenGL/gl.h>
+	<GL/gl.h>
+	<GL/glx.h>
+	<stddef.h>
+
+1257528602 source:c:\wiz\ndmenu\glee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"GLee.h"
+	<Carbon/Carbon.h>
+
+1310608928 c:\wiz\ndmenu\nd_gl.h
+	<SDL/SDL_syswm.h>
+	<SDL/SDL.h>
+	<GL/nanogl.h>
+	<GL/gl.h>
+	<GL/egl.h>
+	<GL/libogl.h>
+	<GLES/egl.h>
+	<GLES/gl.h>
+	"glee.h"
+	<SDL/SDL.h>
+	"SDL/SDL_opengl.h"
+	"SDL/SDL_mixer.h"
+
+1240354644 c:\powervr sdk\ogles_windows_x86emulation_2.08.28.0634\builds\ogles\include\gles\gl.h
+	<GLES/glplatform.h>
+
+1236049016 c:\wiz\ndmenu\include\gles\gl.h
+
+1240354644 c:\powervr sdk\ogles_windows_x86emulation_2.08.28.0634\builds\ogles\include\gles\glplatform.h
+	<KHR/khrplatform.h>
+
+1275609116 c:\powervr sdk\ogles_windows_x86emulation_2.08.28.0634\builds\ogles\include\khr\khrplatform.h
+	<e32def.h>
+	<stdint.h>
+	<inttypes.h>
+	<stdint.h>
+
+1240354644 c:\powervr sdk\ogles_windows_x86emulation_2.08.28.0634\builds\ogles\include\gles\egl.h
+	<EGL/egl.h>
+	<GLES/gl.h>
+
+1240354630 c:\powervr sdk\ogles_windows_x86emulation_2.08.28.0634\builds\ogles\include\egl\egl.h
+	<EGL/eglplatform.h>
+
+1259087944 c:\powervr sdk\ogles_windows_x86emulation_2.08.28.0634\builds\ogles\include\egl\eglplatform.h
+	<KHR/khrplatform.h>
+	<windows.h>
+	<X11/Xlib.h>
+	<X11/Xutil.h>
+
+1240354644 c:\wiz\ndmenu\ogles\include\gles\gl.h
+	<GLES/glplatform.h>
+
+1240354644 c:\wiz\ndmenu\ogles\include\gles\glplatform.h
+	<KHR/khrplatform.h>
+
+1275609116 c:\wiz\ndmenu\ogles\include\khr\khrplatform.h
+	<e32def.h>
+	<stdint.h>
+	<inttypes.h>
+	<stdint.h>
+
+1240354644 c:\wiz\ndmenu\ogles\include\gles\egl.h
+	<EGL/egl.h>
+	<GLES/gl.h>
+
+1240354630 c:\wiz\ndmenu\ogles\include\egl\egl.h
+	<EGL/eglplatform.h>
+
+1259087944 c:\wiz\ndmenu\ogles\include\egl\eglplatform.h
+	<KHR/khrplatform.h>
+	<windows.h>
+	<X11/Xlib.h>
+	<X11/Xutil.h>
+
+1250294011 c:\wiz\ndmenu\libwizgles\wizgles.h
+
+1301430353 source:c:\wiz\ndmenu\libwizgles\wizgles.cpp
+	<stdio.h>
+	<unistd.h>
+	<sys/mman.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<stdlib.h>
+	<errno.h>
+	<string.h>
+	<sys/time.h>
+	"openGLES/gl.h"
+	"openGLES/egl.h"
+	"wizGLES.h"
+	<stdio.h>
+	<fcntl.h>
+	<sys/ioctl.h>
+	<stdlib.h>
+	<string.h>
+	<errno.h>
+	"linux/lf1000/pollux_fb_ioctl.h"
+	<iostream>
+
+1220507373 c:\wiz\ndmenu\libwizgles\linux\lf1000\pollux_fb_ioctl.h
+	"pollux_fb_cfg.h"
+
+1220507373 c:\wiz\ndmenu\libwizgles\linux\lf1000\pollux_fb_cfg.h
+
+1248397375 source:c:\wiz\ndmenu\wiz3d\nanogl\eglwrap.cpp
+	"GL/gl.h"
+	"GL/egl.h"
+	"glesinterface.h"
+	<string.h>
+
+1247176766 c:\wiz\ndmenu\wiz3d\nanogl\gl\gl.h
+
+1246854691 c:\wiz\ndmenu\wiz3d\nanogl\gl\egl.h
+
+1247106824 c:\wiz\ndmenu\wiz3d\nanogl\glesinterface.h
+
+1248397381 source:c:\wiz\ndmenu\wiz3d\nanogl\nanowrap.cpp
+	<stdio.h>
+	<string.h>
+	"GL/gl.h"
+	"glesinterface.h"
+
+1248397395 source:c:\wiz\ndmenu\wiz3d\nanogl\nanogl.cpp
+	<dlfcn.h>
+	<string.h>
+	"GL/gl.h"
+	"GL/nanogl.h"
+	"glesinterface.h"
+	"glesordinals.h"
+
+1246854830 c:\wiz\ndmenu\wiz3d\nanogl\gl\nanogl.h
+
+1247236987 c:\wiz\ndmenu\wiz3d\nanogl\glesordinals.h
+	<string>
+
+1301442377 source:c:\wiz\ndmenu\wiz3d\wizgles\wizgles.cpp
+	<stdio.h>
+	<unistd.h>
+	<sys/mman.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<stdlib.h>
+	<errno.h>
+	<string.h>
+	<sys/time.h>
+	"GL/gl.h"
+	"GL/egl.h"
+	"GL/libogl.h"
+	<stdio.h>
+	<fcntl.h>
+	<sys/ioctl.h>
+	<stdlib.h>
+	<string.h>
+	<errno.h>
+	"linux/lf1000/pollux_fb_ioctl.h"
+
+1247192098 c:\wiz\ndmenu\wiz3d\wizgles\gl\gl.h
+
+1301441449 c:\wiz\ndmenu\wiz3d\wizgles\gl\egl.h
+	<GL/gl.h>
+	<GL/egltypes.h>
+	<sys/types.h>
+
+1187640022 c:\wiz\ndmenu\wiz3d\wizgles\gl\egltypes.h
+	<windows.h>
+
+1237567054 c:\wiz\ndmenu\wiz3d\wizgles\gl\libogl.h
+
+1248397654 c:\wiz\ndmenu\wiz3d\wizgles\linux\lf1000\pollux_fb_ioctl.h
+	"pollux_fb_cfg.h"
+
+1248397654 c:\wiz\ndmenu\wiz3d\wizgles\linux\lf1000\pollux_fb_cfg.h
+
+1247102454 c:\wiz\ndmenu\wiz3d\wizgles\gl\wizgles.h
+	"GL/egltypes.h"
+
+1247074080 c:\wiz\ndmenu\wiz3d\wizgles\gl\nanogl.h
+
+1260438948 c:\gph_sdk\dge\include\opengles\libogl.h
+
+1300232677 c:\wiz\ndmenu\smpeg\smpeg.h
+	"SDL.h"
+	"SDL_mutex.h"
+	"SDL_audio.h"
+	"MPEGfilter.h"
+
+1300232677 c:\wiz\ndmenu\smpeg\mpegfilter.h
+
+1301483096 source:c:\wiz\ndmenu\smpeg\smpeg.cpp
+	"MPEG.h"
+	"MPEGfilter.h"
+	"smpeg.h"
+
+1300232678 c:\wiz\ndmenu\smpeg\mpeg.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"SDL.h"
+	"MPEGerror.h"
+	"MPEGstream.h"
+	"MPEGaction.h"
+	"MPEGaudio.h"
+	"MPEGvideo.h"
+	"MPEGsystem.h"
+	"MPEGfilter.h"
+
+1300232677 c:\wiz\ndmenu\smpeg\mpegerror.h
+	<stdio.h>
+	<stdarg.h>
+
+1300232677 c:\wiz\ndmenu\smpeg\mpegstream.h
+	"SDL_types.h"
+	"MPEGerror.h"
+	"MPEGvideo.h"
+	"MPEGaudio.h"
+	"MPEGlist.h"
+
+1300232678 c:\wiz\ndmenu\smpeg\mpegvideo.h
+	"SDL.h"
+	"SDL_thread.h"
+	"MPEGerror.h"
+	"MPEGaction.h"
+
+1300232678 c:\wiz\ndmenu\smpeg\mpegaction.h
+	"SDL.h"
+	"MPEGfilter.h"
+
+1300232677 c:\wiz\ndmenu\smpeg\mpegaudio.h
+	"SDL.h"
+	"MPEGerror.h"
+	"MPEGaction.h"
+	"MPEGring.h"
+
+1300232677 c:\wiz\ndmenu\smpeg\mpegring.h
+	"SDL_types.h"
+	"SDL_thread.h"
+
+1300232677 c:\wiz\ndmenu\smpeg\mpeglist.h
+	"SDL.h"
+
+1300232677 c:\wiz\ndmenu\smpeg\mpegsystem.h
+	"SDL.h"
+	"SDL_thread.h"
+	"MPEGerror.h"
+
+1301483712 source:c:\wiz\ndmenu\smpeg\mpeg.cpp
+	"SDL.h"
+	"MPEG.h"
+	<io.h>
+	<unistd.h>
+	<fcntl.h>
+	<string.h>
+	<errno.h>
+
+1300232677 source:c:\wiz\ndmenu\smpeg\mpegfilter.c
+	<stdlib.h>
+	<string.h>
+	"SDL.h"
+	"MPEGfilter.h"
+
+1300232678 source:c:\wiz\ndmenu\smpeg\mpeglist.cpp
+	"MPEGlist.h"
+
+1300232677 source:c:\wiz\ndmenu\smpeg\mpegring.cpp
+	<stdlib.h>
+	<stdio.h>
+	<assert.h>
+	<string.h>
+	"SDL_timer.h"
+	"MPEGring.h"
+
+1300232677 source:c:\wiz\ndmenu\smpeg\mpegstream.cpp
+	<string.h>
+	"MPEG.h"
+	"MPEGstream.h"
+	"video/video.h"
+
+1300232674 c:\wiz\ndmenu\smpeg\video\video.h
+	<stdio.h>
+	"MPEGvideo.h"
+	"MPEGaudio.h"
+	"SDL_endian.h"
+
+1300232677 source:c:\wiz\ndmenu\smpeg\mpegsystem.cpp
+	<stdlib.h>
+	<string.h>
+	<errno.h>
+	<assert.h>
+	<sys/types.h>
+	<io.h>
+	<winsock.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<sys/time.h>
+	<sys/select.h>
+	"MPEGsystem.h"
+	"MPEGstream.h"
+
+1300232673 source:c:\wiz\ndmenu\smpeg\audio\mpegaudio.cpp
+	"MPEGaudio.h"
+	"MPEGstream.h"
+
+1300232673 source:c:\wiz\ndmenu\smpeg\audio\bitwindow.cpp
+	"config.h"
+	"MPEGaudio.h"
+
+1300232673 source:c:\wiz\ndmenu\smpeg\audio\filter.cpp
+	"config.h"
+	"MPEGaudio.h"
+
+1300232673 source:c:\wiz\ndmenu\smpeg\audio\filter_2.cpp
+	"config.h"
+	"MPEGaudio.h"
+
+1300232673 source:c:\wiz\ndmenu\smpeg\audio\hufftable.cpp
+	"config.h"
+	"MPEGaudio.h"
+
+1300232673 source:c:\wiz\ndmenu\smpeg\audio\mpeglayer1.cpp
+	"config.h"
+	"MPEGaudio.h"
+
+1300232673 source:c:\wiz\ndmenu\smpeg\audio\mpeglayer2.cpp
+	"config.h"
+	"MPEGaudio.h"
+
+1300232673 source:c:\wiz\ndmenu\smpeg\audio\mpeglayer3.cpp
+	"config.h"
+	<math.h>
+	<stdlib.h>
+	"MPEGaudio.h"
+
+1300232673 source:c:\wiz\ndmenu\smpeg\audio\mpegtable.cpp
+	"config.h"
+	"MPEGaudio.h"
+
+1300232673 source:c:\wiz\ndmenu\smpeg\audio\mpegtoraw.cpp
+	"config.h"
+	<math.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	"MPEGaudio.h"
+	"MPEGstream.h"
+	<windows.h>
+
+1301483924 source:c:\wiz\ndmenu\smpeg\video\mpegvideo.cpp
+	<limits.h>
+	<string.h>
+	"video.h"
+	"proto.h"
+	"dither.h"
+	"util.h"
+	"MPEGvideo.h"
+	"MPEGfilter.h"
+
+1301483270 c:\wiz\ndmenu\smpeg\video\proto.h
+	<stdlib.h>
+
+1300232674 c:\wiz\ndmenu\smpeg\video\dither.h
+
+1300232674 c:\wiz\ndmenu\smpeg\video\util.h
+	"MPEG.h"
+
+1300232674 source:c:\wiz\ndmenu\smpeg\video\decoders.cpp
+	<stdio.h>
+	<assert.h>
+	"decoders.h"
+	"util.h"
+	"video.h"
+	"proto.h"
+
+1300232674 c:\wiz\ndmenu\smpeg\video\decoders.h
+	"util.h"
+
+1300232674 source:c:\wiz\ndmenu\smpeg\video\floatdct.cpp
+	<math.h>
+
+1300232674 source:c:\wiz\ndmenu\smpeg\video\gdith.cpp
+	<math.h>
+	"video.h"
+	"proto.h"
+	"dither.h"
+	"SDL_timer.h"
+	"vhar128.h"
+	<stdlib.h>
+	<string.h>
+
+1300232674 c:\wiz\ndmenu\smpeg\video\vhar128.h
+	"SDL.h"
+
+1300232674 source:c:\wiz\ndmenu\smpeg\video\jrevdct.cpp
+	<string.h>
+	"video.h"
+	"proto.h"
+
+1300232674 source:c:\wiz\ndmenu\smpeg\video\motionvec.cpp
+	"util.h"
+	"video.h"
+	"proto.h"
+
+1300232674 source:c:\wiz\ndmenu\smpeg\video\parseblock.cpp
+	<assert.h>
+	<stdlib.h>
+	"util.h"
+	"video.h"
+	"proto.h"
+	"decoders.h"
+
+1300232674 source:c:\wiz\ndmenu\smpeg\video\readfile.cpp
+	<sys/types.h>
+	<stdlib.h>
+	<string.h>
+	<string.h>
+	<signal.h>
+	"SDL_endian.h"
+	"video.h"
+	"proto.h"
+	"util.h"
+	"dither.h"
+
+1300232674 source:c:\wiz\ndmenu\smpeg\video\util.cpp
+	"MPEG.h"
+	<stdlib.h>
+	"video.h"
+	"proto.h"
+	"util.h"
+	"ctrlbar.h"
+
+1300232674 source:c:\wiz\ndmenu\smpeg\video\vhar128.cpp
+	<stdio.h>
+	<vha.h>
+	<r128hap.h>
+	<ovly.h>
+	"vhar128.h"
+
+1300232674 source:c:\wiz\ndmenu\smpeg\video\video.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	"decoders.h"
+	"video.h"
+	"util.h"
+	"proto.h"
+	"vhar128.h"
+
+1301614784 source:c:\wiz\ndmenu\nd_sound.c
+
