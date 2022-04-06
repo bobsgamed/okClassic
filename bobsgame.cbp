@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="bobsgame" />
+		<Option pch_mode="2" />
+		<Option default_target="Release" />
+		<Option compiler="mingw32_gcc_tdm_452" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/bobsgame" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-pg" />
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-pg -lgmon" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/bobsgame" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-O2" />
+		</Compiler>
+		<Linker>
+			<Add option="-s" />
+		</Linker>
+		<Unit filename="data/rc/bobsgame.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="lib/ini/dictionary.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/ini/dictionary.h" />
+		<Unit filename="lib/ini/iniparser.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/ini/iniparser.h" />
+		<Unit filename="lib/ini/textfile.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/ini/textfile.h" />
+		<Unit filename="src/engine/game.cpp" />
+		<Unit filename="src/engine/game.h" />
+		<Unit filename="src/engine/game/action.cpp" />
+		<Unit filename="src/engine/game/action.h" />
+		<Unit filename="src/engine/game/caption.cpp" />
+		<Unit filename="src/engine/game/caption.h" />
+		<Unit filename="src/engine/game/clock.cpp" />
+		<Unit filename="src/engine/game/clock.h" />
+		<Unit filename="src/engine/game/item.cpp" />
+		<Unit filename="src/engine/game/item.h" />
+		<Unit filename="src/engine/game/letterbox.cpp" />
+		<Unit filename="src/engine/game/letterbox.h" />
+		<Unit filename="src/engine/game/map.cpp" />
+		<Unit filename="src/engine/game/map.h" />
+		<Unit filename="src/engine/game/music.cpp" />
+		<Unit filename="src/engine/game/music.h" />
+		<Unit filename="src/engine/game/npc.cpp" />
+		<Unit filename="src/engine/game/npc.h" />
+		<Unit filename="src/engine/game/npccar.cpp" />
+		<Unit filename="src/engine/game/npccar.h" />
+		<Unit filename="src/engine/game/npcfuncs.cpp" />
+		<Unit filename="src/engine/game/npcfuncs.h" />
+		<Unit filename="src/engine/game/npcrand.cpp" />
+		<Unit filename="src/engine/game/npcrand.h" />
+		<Unit filename="src/engine/game/player.cpp" />
+		<Unit filename="src/engine/game/player.h" />
+		<Unit filename="src/engine/game/save.cpp" />
+		<Unit filename="src/engine/game/save.h" />
+		<Unit filename="src/engine/game/start.cpp" />
+		<Unit filename="src/engine/game/start.h" />
+		<Unit filename="src/engine/game/txt.cpp" />
+		<Unit filename="src/engine/game/txt.h" />
+		<Unit filename="src/engine/game/txtanswer.cpp" />
+		<Unit filename="src/engine/game/txtanswer.h" />
+		<Unit filename="src/engine/game/txtkeyboard.cpp" />
+		<Unit filename="src/engine/game/txtkeyboard.h" />
+		<Unit filename="src/engine/main/controls.cpp" />
+		<Unit filename="src/engine/main/controls.h" />
+		<Unit filename="src/engine/main/debug.cpp" />
+		<Unit filename="src/engine/main/debug.h" />
+		<Unit filename="src/engine/main/error.cpp" />
+		<Unit filename="src/engine/main/error.h" />
+		<Unit filename="src/engine/main/gfx_vars.h" />
+		<Unit filename="src/engine/main/globals.cpp" />
+		<Unit filename="src/engine/main/globals.h" />
+		<Unit filename="src/engine/main/hq2x_filter.h" />
+		<Unit filename="src/engine/main/misc.cpp" />
+		<Unit filename="src/engine/main/misc.h" />
+		<Unit filename="src/engine/main/render.cpp" />
+		<Unit filename="src/engine/main/render.h" />
+		<Unit filename="src/engine/main/snes_ntsc_filter.h" />
+		<Unit filename="src/engine/main/sound.cpp" />
+		<Unit filename="src/engine/main/sound.h" />
+		<Unit filename="src/engine/main/sprites.cpp" />
+		<Unit filename="src/engine/main/sprites.h" />
+		<Unit filename="src/engine/main/tilemaps.cpp" />
+		<Unit filename="src/engine/main/tilemaps.h" />
+		<Unit filename="src/engine/main/types.h" />
+		<Unit filename="src/gamelogic/changemap.cpp" />
+		<Unit filename="src/gamelogic/changemap.h" />
+		<Unit filename="src/gamelogic/city/apartment.cpp" />
+		<Unit filename="src/gamelogic/city/apartment.h" />
+		<Unit filename="src/gamelogic/city/bank.cpp" />
+		<Unit filename="src/gamelogic/city/bank.h" />
+		<Unit filename="src/gamelogic/city/casino.cpp" />
+		<Unit filename="src/gamelogic/city/casino.h" />
+		<Unit filename="src/gamelogic/city/city.cpp" />
+		<Unit filename="src/gamelogic/city/city.h" />
+		<Unit filename="src/gamelogic/city/cityhall.cpp" />
+		<Unit filename="src/gamelogic/city/cityhall.h" />
+		<Unit filename="src/gamelogic/city/deli.cpp" />
+		<Unit filename="src/gamelogic/city/deli.h" />
+		<Unit filename="src/gamelogic/city/elevatedlifeplace.cpp" />
+		<Unit filename="src/gamelogic/city/elevatedlifeplace.h" />
+		<Unit filename="src/gamelogic/city/fashionstore.cpp" />
+		<Unit filename="src/gamelogic/city/fashionstore.h" />
+		<Unit filename="src/gamelogic/city/firestation.cpp" />
+		<Unit filename="src/gamelogic/city/firestation.h" />
+		<Unit filename="src/gamelogic/city/groovyclub.cpp" />
+		<Unit filename="src/gamelogic/city/groovyclub.h" />
+		<Unit filename="src/gamelogic/city/hospital.cpp" />
+		<Unit filename="src/gamelogic/city/hospital.h" />
+		<Unit filename="src/gamelogic/city/hotel.cpp" />
+		<Unit filename="src/gamelogic/city/hotel.h" />
+		<Unit filename="src/gamelogic/city/hourlymotel.cpp" />
+		<Unit filename="src/gamelogic/city/hourlymotel.h" />
+		<Unit filename="src/gamelogic/city/laundromat.cpp" />
+		<Unit filename="src/gamelogic/city/laundromat.h" />
+		<Unit filename="src/gamelogic/city/museum.cpp" />
+		<Unit filename="src/gamelogic/city/museum.h" />
+		<Unit filename="src/gamelogic/city/office.cpp" />
+		<Unit filename="src/gamelogic/city/office.h" />
+		<Unit filename="src/gamelogic/city/partystore.cpp" />
+		<Unit filename="src/gamelogic/city/partystore.h" />
+		<Unit filename="src/gamelogic/city/pawnshop.cpp" />
+		<Unit filename="src/gamelogic/city/pawnshop.h" />
+		<Unit filename="src/gamelogic/city/policestation.cpp" />
+		<Unit filename="src/gamelogic/city/policestation.h" />
+		<Unit filename="src/gamelogic/city/poolhall.cpp" />
+		<Unit filename="src/gamelogic/city/poolhall.h" />
+		<Unit filename="src/gamelogic/city/restaurant.cpp" />
+		<Unit filename="src/gamelogic/city/restaurant.h" />
+		<Unit filename="src/gamelogic/city/stadium.cpp" />
+		<Unit filename="src/gamelogic/city/stadium.h" />
+		<Unit filename="src/gamelogic/city/thecafe.cpp" />
+		<Unit filename="src/gamelogic/city/thecafe.h" />
+		<Unit filename="src/gamelogic/intro/introtown.cpp" />
+		<Unit filename="src/gamelogic/intro/introtown.h" />
+		<Unit filename="src/gamelogic/intro/introyuushouse.cpp" />
+		<Unit filename="src/gamelogic/intro/introyuushouse.h" />
+		<Unit filename="src/gamelogic/other/castroom.cpp" />
+		<Unit filename="src/gamelogic/other/castroom.h" />
+		<Unit filename="src/gamelogic/other/japanhouse.cpp" />
+		<Unit filename="src/gamelogic/other/japanhouse.h" />
+		<Unit filename="src/gamelogic/other/meetingroom.cpp" />
+		<Unit filename="src/gamelogic/other/meetingroom.h" />
+		<Unit filename="src/gamelogic/other/minigame.cpp" />
+		<Unit filename="src/gamelogic/other/minigame.h" />
+		<Unit filename="src/gamelogic/title/demoend.cpp" />
+		<Unit filename="src/gamelogic/title/demoend.h" />
+		<Unit filename="src/gamelogic/title/license.cpp" />
+		<Unit filename="src/gamelogic/title/license.h" />
+		<Unit filename="src/gamelogic/title/titlescreen.cpp" />
+		<Unit filename="src/gamelogic/title/titlescreen.h" />
+		<Unit filename="src/gamelogic/title/warning.cpp" />
+		<Unit filename="src/gamelogic/title/warning.h" />
+		<Unit filename="src/gamelogic/town/arcade.cpp" />
+		<Unit filename="src/gamelogic/town/arcade.h" />
+		<Unit filename="src/gamelogic/town/beautysalon.cpp" />
+		<Unit filename="src/gamelogic/town/beautysalon.h" />
+		<Unit filename="src/gamelogic/town/bookstore.cpp" />
+		<Unit filename="src/gamelogic/town/bookstore.h" />
+		<Unit filename="src/gamelogic/town/church.cpp" />
+		<Unit filename="src/gamelogic/town/church.h" />
+		<Unit filename="src/gamelogic/town/clubhouse.cpp" />
+		<Unit filename="src/gamelogic/town/clubhouse.h" />
+		<Unit filename="src/gamelogic/town/coffeeshop.cpp" />
+		<Unit filename="src/gamelogic/town/coffeeshop.h" />
+		<Unit filename="src/gamelogic/town/crazyladyhouse.cpp" />
+		<Unit filename="src/gamelogic/town/crazyladyhouse.h" />
+		<Unit filename="src/gamelogic/town/departmentstore.cpp" />
+		<Unit filename="src/gamelogic/town/departmentstore.h" />
+		<Unit filename="src/gamelogic/town/doctorsoffice.cpp" />
+		<Unit filename="src/gamelogic/town/doctorsoffice.h" />
+		<Unit filename="src/gamelogic/town/electronicsstore.cpp" />
+		<Unit filename="src/gamelogic/town/electronicsstore.h" />
+		<Unit filename="src/gamelogic/town/friendshouse.cpp" />
+		<Unit filename="src/gamelogic/town/friendshouse.h" />
+		<Unit filename="src/gamelogic/town/gamestore.cpp" />
+		<Unit filename="src/gamelogic/town/gamestore.h" />
+		<Unit filename="src/gamelogic/town/gasstation.cpp" />
+		<Unit filename="src/gamelogic/town/gasstation.h" />
+		<Unit filename="src/gamelogic/town/generichouses.cpp" />
+		<Unit filename="src/gamelogic/town/generichouses.h" />
+		<Unit filename="src/gamelogic/town/grocerystore.cpp" />
+		<Unit filename="src/gamelogic/town/grocerystore.h" />
+		<Unit filename="src/gamelogic/town/mansion.cpp" />
+		<Unit filename="src/gamelogic/town/mansion.h" />
+		<Unit filename="src/gamelogic/town/movietheater.cpp" />
+		<Unit filename="src/gamelogic/town/movietheater.h" />
+		<Unit filename="src/gamelogic/town/petstore.cpp" />
+		<Unit filename="src/gamelogic/town/petstore.h" />
+		<Unit filename="src/gamelogic/town/pizzaplace.cpp" />
+		<Unit filename="src/gamelogic/town/pizzaplace.h" />
+		<Unit filename="src/gamelogic/town/playground.cpp" />
+		<Unit filename="src/gamelogic/town/playground.h" />
+		<Unit filename="src/gamelogic/town/recordstore.cpp" />
+		<Unit filename="src/gamelogic/town/recordstore.h" />
+		<Unit filename="src/gamelogic/town/school.cpp" />
+		<Unit filename="src/gamelogic/town/school.h" />
+		<Unit filename="src/gamelogic/town/tacoburger.cpp" />
+		<Unit filename="src/gamelogic/town/tacoburger.h" />
+		<Unit filename="src/gamelogic/town/toolshed.cpp" />
+		<Unit filename="src/gamelogic/town/toolshed.h" />
+		<Unit filename="src/gamelogic/town/town.cpp" />
+		<Unit filename="src/gamelogic/town/town.h" />
+		<Unit filename="src/gamelogic/town/videostore.cpp" />
+		<Unit filename="src/gamelogic/town/videostore.h" />
+		<Unit filename="src/gamelogic/town/yuushouse.cpp" />
+		<Unit filename="src/gamelogic/town/yuushouse.h" />
+		<Unit filename="src/main.cpp" />
+		<Unit filename="src/main.h" />
+		<Unit filename="src/minigame/beatgame.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="src/minigame/blobgame.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="src/minigame/microgame.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="src/minigame/ping.cpp" />
+		<Unit filename="src/minigame/ping.h" />
+		<Unit filename="src/minigame/platformexplore.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="src/minigame/platformjump.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="src/minigame/ramio.cpp" />
+		<Unit filename="src/minigame/ramio.h" />
+		<Unit filename="src/minigame/shootergame.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="src/minigame/tetrid.cpp" />
+		<Unit filename="src/minigame/tetrid.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

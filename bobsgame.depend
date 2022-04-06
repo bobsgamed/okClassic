@@ -1,0 +1,1866 @@
+# depslib dependency file v1.0
+1314775194 source:q:\bobsgame\src\main.c
+	<stdlib.h>
+	<math.h>
+	<unistd.h>
+	<time.h>
+	<stdint.h>
+	"engine/init/types.h"
+	<GL/glew.h>
+	<GL/wglew.h>
+	"SDL.h"
+	"SDL_opengl.h"
+	"SDL_mixer.h"
+	"SDL_ttf.h"
+	"SDL_image.h"
+	"SDL_net.h"
+	"SDL_rotozoom.h"
+	"chipmunk.h"
+	"../lib/ini/iniparser.h"
+	"../lib/ini/textfile.h"
+	"engine/main/globals.h"
+	"engine/init/defines.h"
+	"engine/init/vars.h"
+	"engine/init/gfx_vars.h"
+	"engine/init/game_vars.h"
+	"engine/port/port.h"
+	"engine/port/port_sound.h"
+	"engine/port/port_tilemaps.h"
+	"engine/port/port_sprites.h"
+	"engine/init/prototypes.h"
+	"engine/init/itemglobals.h"
+	"engine/main/debug.h"
+	"gamelogic/gamelogicprototypes.h"
+	"gamelogic/changemap.h"
+	"engine/game/npc.h"
+	"engine/game/player.h"
+	"engine/game/map.h"
+	"engine/game/txt.h"
+	"engine/game/txtanswer.h"
+	"engine/game/caption.h"
+	"engine/game/letterbox.h"
+	"engine/game/action.h"
+	"engine/game/clock.h"
+	"engine/game/save.h"
+	"engine/game/music.h"
+	"engine/game/item.h"
+	"engine/game/start.h"
+	"gamelogic/town/yuushouse.h"
+	"gamelogic/town/toolshed.h"
+	"gamelogic/intro/introtown.h"
+	"gamelogic/intro/introyuushouse.h"
+	"gamelogic/city/apartment.h"
+	"gamelogic/town/arcade.h"
+	"gamelogic/town/beautysalon.h"
+	"gamelogic/town/bookstore.h"
+	"gamelogic/town/church.h"
+	"gamelogic/town/clubhouse.h"
+	"gamelogic/town/coffeeshop.h"
+	"gamelogic/town/crazyladyhouse.h"
+	"gamelogic/town/departmentstore.h"
+	"gamelogic/town/doctorsoffice.h"
+	"gamelogic/town/electronicsstore.h"
+	"gamelogic/town/friendshouse.h"
+	"gamelogic/town/gamestore.h"
+	"gamelogic/town/gasstation.h"
+	"gamelogic/town/generichouses.h"
+	"gamelogic/town/grocerystore.h"
+	"gamelogic/town/mansion.h"
+	"gamelogic/town/movietheater.h"
+	"gamelogic/town/petstore.h"
+	"gamelogic/town/pizzaplace.h"
+	"gamelogic/town/playground.h"
+	"gamelogic/town/recordstore.h"
+	"gamelogic/town/school.h"
+	"gamelogic/town/tacoburger.h"
+	"gamelogic/town/town.h"
+	"gamelogic/town/videostore.h"
+	"gamelogic/city/bank.h"
+	"gamelogic/city/casino.h"
+	"gamelogic/city/city.h"
+	"gamelogic/city/cityhall.h"
+	"gamelogic/city/deli.h"
+	"gamelogic/city/elevatedlifeplace.h"
+	"gamelogic/city/fashionstore.h"
+	"gamelogic/city/firestation.h"
+	"gamelogic/city/groovyclub.h"
+	"gamelogic/city/hospital.h"
+	"gamelogic/city/hotel.h"
+	"gamelogic/city/hourlymotel.h"
+	"gamelogic/city/laundromat.h"
+	"gamelogic/city/museum.h"
+	"gamelogic/city/office.h"
+	"gamelogic/city/partystore.h"
+	"gamelogic/city/pawnshop.h"
+	"gamelogic/city/policestation.h"
+	"gamelogic/city/poolhall.h"
+	"gamelogic/city/restaurant.h"
+	"gamelogic/city/stadium.h"
+	"gamelogic/city/thecafe.h"
+	"gamelogic/other/japanhouse.h"
+	"gamelogic/other/castroom.h"
+	"gamelogic/other/meetingroom.h"
+	"gamelogic/title/titlescreen.h"
+	"gamelogic/title/warning.h"
+	"gamelogic/title/license.h"
+	"gamelogic/title/demoend.h"
+	"gamelogic/other/minigame.h"
+	"minigame/tetrid.h"
+	"minigame/ping.h"
+	"minigame/ramio.h"
+	"engine/game.h"
+	"engine/main/render.h"
+	"engine/main/error.h"
+	"engine/main/controls.h"
+
+1315947795 q:\bobsgame\src\engine\init\types.h
+
+1255800449 q:\bobsgame\lib\sdl-1.2.14\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 q:\bobsgame\lib\sdl-1.2.14\include\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 q:\bobsgame\lib\sdl-1.2.14\include\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1255800464 q:\bobsgame\lib\sdl-1.2.14\include\sdl\sdl_config.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1255800450 q:\bobsgame\lib\sdl-1.2.14\include\sdl\sdl_platform.h
+
+1255800450 q:\bobsgame\lib\sdl-1.2.14\include\sdl\begin_code.h
+
+1255800450 q:\bobsgame\lib\sdl-1.2.14\include\sdl\close_code.h
+
+1255800449 q:\bobsgame\lib\sdl-1.2.14\include\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800449 q:\bobsgame\lib\sdl-1.2.14\include\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800449 q:\bobsgame\lib\sdl-1.2.14\include\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 q:\bobsgame\lib\sdl-1.2.14\include\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 q:\bobsgame\lib\sdl-1.2.14\include\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1255800450 q:\bobsgame\lib\sdl-1.2.14\include\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800449 q:\bobsgame\lib\sdl-1.2.14\include\sdl\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800449 q:\bobsgame\lib\sdl-1.2.14\include\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800449 q:\bobsgame\lib\sdl-1.2.14\include\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800449 q:\bobsgame\lib\sdl-1.2.14\include\sdl\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800449 q:\bobsgame\lib\sdl-1.2.14\include\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 q:\bobsgame\lib\sdl-1.2.14\include\sdl\sdl_keysym.h
+
+1255800450 q:\bobsgame\lib\sdl-1.2.14\include\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 q:\bobsgame\lib\sdl-1.2.14\include\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800449 q:\bobsgame\lib\sdl-1.2.14\include\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 q:\bobsgame\lib\sdl-1.2.14\include\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1255800450 q:\bobsgame\lib\sdl-1.2.14\include\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 q:\bobsgame\lib\sdl-1.2.14\include\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 q:\bobsgame\lib\sdl-1.2.14\include\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 q:\bobsgame\lib\sdl-1.2.14\include\sdl\sdl_opengl.h
+	"SDL_config.h"
+	<windows.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<gl.h>
+	<glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<windows.h>
+	<stddef.h>
+
+1258282352 q:\bobsgame\lib\sdl_mixer-1.2.11\include\sdl_mixer.h
+	"SDL_types.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 q:\bobsgame\lib\sdl-1.2.14\include\sdl\sdl_types.h
+	"SDL_stdinc.h"
+
+1255940894 q:\bobsgame\lib\sdl_ttf-2.0.10\include\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1258282278 q:\bobsgame\lib\sdl_image-1.2.10\include\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1185005282 q:\bobsgame\lib\sdl_net-1.2.7\include\sdl_net.h
+	"SDL.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1315949372 q:\bobsgame\src\engine\main\globals.h
+
+1310226213 q:\bobsgame\src\engine\init\defines.h
+
+1315903647 q:\bobsgame\src\engine\init\vars.h
+
+1310590023 q:\bobsgame\src\engine\init\gfx_vars.h
+
+1315949375 q:\bobsgame\src\engine\init\game_vars.h
+
+1315663385 q:\bobsgame\src\engine\port\port.h
+
+1315666377 q:\bobsgame\src\engine\port\port_sound.h
+
+1315661173 q:\bobsgame\src\engine\port\port_tilemaps.h
+
+1315662846 q:\bobsgame\src\engine\port\port_sprites.h
+
+1315904423 q:\bobsgame\src\engine\init\prototypes.h
+
+1309859477 q:\bobsgame\src\engine\init\itemglobals.h
+
+1316454269 q:\bobsgame\src\engine\main\debug.h
+
+1309971174 q:\bobsgame\src\gamelogic\gamelogicprototypes.h
+
+1315986046 q:\bobsgame\src\gamelogic\changemap.h
+
+1316440250 q:\bobsgame\src\engine\game\npc.h
+
+1316109959 q:\bobsgame\src\engine\game\npcfuncs.h
+
+1315950035 q:\bobsgame\src\engine\game\npcrand.h
+
+1316102372 q:\bobsgame\src\engine\game\npccar.h
+
+1315989257 q:\bobsgame\src\engine\game\player.h
+
+1315988609 q:\bobsgame\src\engine\game\map.h
+
+1315951132 q:\bobsgame\src\engine\game\txt.h
+
+1315952834 q:\bobsgame\src\engine\game\txtkeyboard.h
+
+1315953002 q:\bobsgame\src\engine\game\txtanswer.h
+
+1315950905 q:\bobsgame\src\engine\game\caption.h
+
+1315950963 q:\bobsgame\src\engine\game\letterbox.h
+
+1316122033 q:\bobsgame\src\engine\game\action.h
+
+1315951062 q:\bobsgame\src\engine\game\clock.h
+
+1315949375 q:\bobsgame\src\engine\game\save.h
+
+1315951062 q:\bobsgame\src\engine\game\music.h
+
+1315951062 q:\bobsgame\src\engine\game\item.h
+
+1315951062 q:\bobsgame\src\engine\game\start.h
+
+1315994469 q:\bobsgame\src\gamelogic\town\yuushouse.h
+
+1315991650 q:\bobsgame\src\gamelogic\town\toolshed.h
+
+1315994938 q:\bobsgame\src\gamelogic\intro\introtown.h
+
+1315993701 q:\bobsgame\src\gamelogic\intro\introyuushouse.h
+
+1315991292 q:\bobsgame\src\gamelogic\city\apartment.h
+
+1315991521 q:\bobsgame\src\gamelogic\town\arcade.h
+
+1315991527 q:\bobsgame\src\gamelogic\town\beautysalon.h
+
+1315991532 q:\bobsgame\src\gamelogic\town\bookstore.h
+
+1315991538 q:\bobsgame\src\gamelogic\town\church.h
+
+1315991544 q:\bobsgame\src\gamelogic\town\clubhouse.h
+
+1315991550 q:\bobsgame\src\gamelogic\town\coffeeshop.h
+
+1315991556 q:\bobsgame\src\gamelogic\town\crazyladyhouse.h
+
+1315991561 q:\bobsgame\src\gamelogic\town\departmentstore.h
+
+1315991567 q:\bobsgame\src\gamelogic\town\doctorsoffice.h
+
+1315991572 q:\bobsgame\src\gamelogic\town\electronicsstore.h
+
+1315991577 q:\bobsgame\src\gamelogic\town\friendshouse.h
+
+1315991583 q:\bobsgame\src\gamelogic\town\gamestore.h
+
+1315991589 q:\bobsgame\src\gamelogic\town\gasstation.h
+
+1315991594 q:\bobsgame\src\gamelogic\town\generichouses.h
+
+1315991600 q:\bobsgame\src\gamelogic\town\grocerystore.h
+
+1315991605 q:\bobsgame\src\gamelogic\town\mansion.h
+
+1315991611 q:\bobsgame\src\gamelogic\town\movietheater.h
+
+1315991616 q:\bobsgame\src\gamelogic\town\petstore.h
+
+1315991621 q:\bobsgame\src\gamelogic\town\pizzaplace.h
+
+1315991627 q:\bobsgame\src\gamelogic\town\playground.h
+
+1315991632 q:\bobsgame\src\gamelogic\town\recordstore.h
+
+1315991639 q:\bobsgame\src\gamelogic\town\school.h
+
+1315991644 q:\bobsgame\src\gamelogic\town\tacoburger.h
+
+1315990486 q:\bobsgame\src\gamelogic\town\town.h
+
+1315991659 q:\bobsgame\src\gamelogic\town\videostore.h
+
+1315991326 q:\bobsgame\src\gamelogic\city\bank.h
+
+1315991333 q:\bobsgame\src\gamelogic\city\casino.h
+
+1315991340 q:\bobsgame\src\gamelogic\city\city.h
+
+1315991347 q:\bobsgame\src\gamelogic\city\cityhall.h
+
+1315991354 q:\bobsgame\src\gamelogic\city\deli.h
+
+1315991361 q:\bobsgame\src\gamelogic\city\elevatedlifeplace.h
+
+1315991370 q:\bobsgame\src\gamelogic\city\fashionstore.h
+
+1315991376 q:\bobsgame\src\gamelogic\city\firestation.h
+
+1315991383 q:\bobsgame\src\gamelogic\city\groovyclub.h
+
+1315991391 q:\bobsgame\src\gamelogic\city\hospital.h
+
+1315991401 q:\bobsgame\src\gamelogic\city\hotel.h
+
+1315991409 q:\bobsgame\src\gamelogic\city\hourlymotel.h
+
+1315991416 q:\bobsgame\src\gamelogic\city\laundromat.h
+
+1315991422 q:\bobsgame\src\gamelogic\city\museum.h
+
+1315991427 q:\bobsgame\src\gamelogic\city\office.h
+
+1315991434 q:\bobsgame\src\gamelogic\city\partystore.h
+
+1315991441 q:\bobsgame\src\gamelogic\city\pawnshop.h
+
+1315991447 q:\bobsgame\src\gamelogic\city\policestation.h
+
+1315991454 q:\bobsgame\src\gamelogic\city\poolhall.h
+
+1315991461 q:\bobsgame\src\gamelogic\city\restaurant.h
+
+1315991468 q:\bobsgame\src\gamelogic\city\stadium.h
+
+1315991474 q:\bobsgame\src\gamelogic\city\thecafe.h
+
+1315991494 q:\bobsgame\src\gamelogic\other\japanhouse.h
+
+1315991487 q:\bobsgame\src\gamelogic\other\castroom.h
+
+1315991501 q:\bobsgame\src\gamelogic\other\meetingroom.h
+
+1316454271 q:\bobsgame\src\gamelogic\title\titlescreen.h
+
+1315949376 q:\bobsgame\src\gamelogic\title\warning.h
+
+1315949376 q:\bobsgame\src\gamelogic\title\license.h
+
+1315949376 q:\bobsgame\src\gamelogic\title\demoend.h
+
+1315994253 q:\bobsgame\src\gamelogic\other\minigame.h
+
+1315992110 q:\bobsgame\src\minigame\tetrid.h
+
+1315993669 q:\bobsgame\src\minigame\ping.h
+
+1315993719 q:\bobsgame\src\minigame\ramio.h
+
+1315988827 q:\bobsgame\src\engine\game.h
+
+1315995264 q:\bobsgame\src\engine\main\render.h
+
+1315987334 q:\bobsgame\src\engine\main\error.h
+
+1315995299 q:\bobsgame\src\engine\main\controls.h
+
+1310140085 source:q:\bobsgame\data\rc\bobsgame.rc
+
+1315718036 source:q:\bobsgame\lib\ini\dictionary.c
+	"dictionary.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+
+1315718035 q:\bobsgame\lib\ini\dictionary.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+
+1199385339 source:q:\bobsgame\lib\ini\iniparser.c
+	<ctype.h>
+	"iniparser.h"
+
+1195853899 q:\bobsgame\lib\ini\iniparser.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"dictionary.h"
+
+1315718037 source:q:\bobsgame\lib\ini\textfile.c
+	<stdio.h>
+	<malloc.h>
+	<fcntl.h>
+	<string.h>
+	<sys/types.h>
+	<unistd.h>
+
+1314281874 q:\bobsgame\lib\glew-1.7.0\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1314281874 q:\bobsgame\lib\glew-1.7.0\include\gl\wglew.h
+	<windows.h>
+
+1282018735 q:\bobsgame\lib\sdl_gfx-2.0.22\include\sdl_rotozoom.h
+	<math.h>
+	"SDL.h"
+
+1311631388 q:\bobsgame\lib\chipmunk-6.0.1\include\chipmunk.h
+	"chipmunk_types.h"
+	"cpVect.h"
+	"cpBB.h"
+	"cpSpatialIndex.h"
+	"cpBody.h"
+	"cpShape.h"
+	"cpPolyShape.h"
+	"cpArbiter.h"
+	"constraints/cpConstraint.h"
+	"cpSpace.h"
+
+1311631388 q:\bobsgame\lib\chipmunk-6.0.1\include\chipmunk_types.h
+
+1311631388 q:\bobsgame\lib\chipmunk-6.0.1\include\cpvect.h
+
+1311631388 q:\bobsgame\lib\chipmunk-6.0.1\include\cpbb.h
+
+1314833210 q:\bobsgame\lib\chipmunk-6.0.1\include\cpspatialindex.h
+
+1311631388 q:\bobsgame\lib\chipmunk-6.0.1\include\cpbody.h
+
+1311631388 q:\bobsgame\lib\chipmunk-6.0.1\include\cpshape.h
+
+1311631388 q:\bobsgame\lib\chipmunk-6.0.1\include\cppolyshape.h
+
+1311631388 q:\bobsgame\lib\chipmunk-6.0.1\include\cparbiter.h
+
+1311631388 q:\bobsgame\lib\chipmunk-6.0.1\include\constraints\cpconstraint.h
+	"cpPinJoint.h"
+	"cpSlideJoint.h"
+	"cpPivotJoint.h"
+	"cpGrooveJoint.h"
+	"cpDampedSpring.h"
+	"cpDampedRotarySpring.h"
+	"cpRotaryLimitJoint.h"
+	"cpRatchetJoint.h"
+	"cpGearJoint.h"
+	"cpSimpleMotor.h"
+
+1311631388 q:\bobsgame\lib\chipmunk-6.0.1\include\constraints\cppinjoint.h
+
+1311631388 q:\bobsgame\lib\chipmunk-6.0.1\include\constraints\cpslidejoint.h
+
+1311631388 q:\bobsgame\lib\chipmunk-6.0.1\include\constraints\cppivotjoint.h
+
+1311631388 q:\bobsgame\lib\chipmunk-6.0.1\include\constraints\cpgroovejoint.h
+
+1311631388 q:\bobsgame\lib\chipmunk-6.0.1\include\constraints\cpdampedspring.h
+
+1311631388 q:\bobsgame\lib\chipmunk-6.0.1\include\constraints\cpdampedrotaryspring.h
+
+1311631388 q:\bobsgame\lib\chipmunk-6.0.1\include\constraints\cprotarylimitjoint.h
+
+1311631388 q:\bobsgame\lib\chipmunk-6.0.1\include\constraints\cpratchetjoint.h
+
+1311631388 q:\bobsgame\lib\chipmunk-6.0.1\include\constraints\cpgearjoint.h
+
+1311631388 q:\bobsgame\lib\chipmunk-6.0.1\include\constraints\cpsimplemotor.h
+
+1311631388 q:\bobsgame\lib\chipmunk-6.0.1\include\cpspace.h
+
+1315667889 q:\bobsgame\lib\ini\textfile.h
+
+1316454268 source:q:\bobsgame\src\main.cpp
+	"main.h"
+
+1215798628 q:\bobsgame\lib\sdl_config_1.2\include\sdl_config_lib.h
+	"SDL_rwops.h"
+	"SDL_error.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"SDL_config_cfg.h"
+	<string>
+	<stdio.h>
+	"close_code.h"
+
+1215797892 q:\bobsgame\lib\sdl_config_1.2\include\sdl_config_cfg.h
+	<cstdlib>
+	<ext/malloc_allocator.h>
+	<string>
+
+1270343882 q:\bobsgame\lib\box2d_v2.1.2\include\box2d\box2d.h
+	<Box2D/Common/b2Settings.h>
+	<Box2D/Collision/Shapes/b2CircleShape.h>
+	<Box2D/Collision/Shapes/b2PolygonShape.h>
+	<Box2D/Collision/b2BroadPhase.h>
+	<Box2D/Collision/b2Distance.h>
+	<Box2D/Collision/b2DynamicTree.h>
+	<Box2D/Collision/b2TimeOfImpact.h>
+	<Box2D/Dynamics/b2Body.h>
+	<Box2D/Dynamics/b2Fixture.h>
+	<Box2D/Dynamics/b2WorldCallbacks.h>
+	<Box2D/Dynamics/b2TimeStep.h>
+	<Box2D/Dynamics/b2World.h>
+	<Box2D/Dynamics/Contacts/b2Contact.h>
+	<Box2D/Dynamics/Joints/b2DistanceJoint.h>
+	<Box2D/Dynamics/Joints/b2FrictionJoint.h>
+	<Box2D/Dynamics/Joints/b2GearJoint.h>
+	<Box2D/Dynamics/Joints/b2LineJoint.h>
+	<Box2D/Dynamics/Joints/b2MouseJoint.h>
+	<Box2D/Dynamics/Joints/b2PrismaticJoint.h>
+	<Box2D/Dynamics/Joints/b2PulleyJoint.h>
+	<Box2D/Dynamics/Joints/b2RevoluteJoint.h>
+	<Box2D/Dynamics/Joints/b2WeldJoint.h>
+
+1270317792 q:\bobsgame\lib\box2d_v2.1.2\include\box2d\common\b2settings.h
+	<cassert>
+	<cmath>
+
+1265019168 q:\bobsgame\lib\box2d_v2.1.2\include\box2d\collision\shapes\b2circleshape.h
+	<Box2D/Collision/Shapes/b2Shape.h>
+
+1268014394 q:\bobsgame\lib\box2d_v2.1.2\include\box2d\collision\shapes\b2shape.h
+	<Box2D/Common/b2BlockAllocator.h>
+	<Box2D/Common/b2Math.h>
+	<Box2D/Collision/b2Collision.h>
+
+1265019168 q:\bobsgame\lib\box2d_v2.1.2\include\box2d\common\b2blockallocator.h
+	<Box2D/Common/b2Settings.h>
+
+1271144924 q:\bobsgame\lib\box2d_v2.1.2\include\box2d\common\b2math.h
+	<Box2D/Common/b2Settings.h>
+	<cmath>
+	<cfloat>
+	<cstddef>
+	<limits>
+
+1269925966 q:\bobsgame\lib\box2d_v2.1.2\include\box2d\collision\b2collision.h
+	<Box2D/Common/b2Math.h>
+	<climits>
+
+1265019168 q:\bobsgame\lib\box2d_v2.1.2\include\box2d\collision\shapes\b2polygonshape.h
+	<Box2D/Collision/Shapes/b2Shape.h>
+
+1265019168 q:\bobsgame\lib\box2d_v2.1.2\include\box2d\collision\b2broadphase.h
+	<Box2D/Common/b2Settings.h>
+	<Box2D/Collision/b2Collision.h>
+	<Box2D/Collision/b2DynamicTree.h>
+	<algorithm>
+
+1267929074 q:\bobsgame\lib\box2d_v2.1.2\include\box2d\collision\b2dynamictree.h
+	<Box2D/Collision/b2Collision.h>
+
+1265019168 q:\bobsgame\lib\box2d_v2.1.2\include\box2d\collision\b2distance.h
+	<Box2D/Common/b2Math.h>
+	<climits>
+
+1265019168 q:\bobsgame\lib\box2d_v2.1.2\include\box2d\collision\b2timeofimpact.h
+	<Box2D/Common/b2Math.h>
+	<Box2D/Collision/b2Distance.h>
+	<climits>
+
+1270342506 q:\bobsgame\lib\box2d_v2.1.2\include\box2d\dynamics\b2body.h
+	<Box2D/Common/b2Math.h>
+	<Box2D/Collision/Shapes/b2Shape.h>
+	<memory>
+
+1270342984 q:\bobsgame\lib\box2d_v2.1.2\include\box2d\dynamics\b2fixture.h
+	<Box2D/Dynamics/b2Body.h>
+	<Box2D/Collision/b2Collision.h>
+	<Box2D/Collision/Shapes/b2Shape.h>
+
+1269815900 q:\bobsgame\lib\box2d_v2.1.2\include\box2d\dynamics\b2worldcallbacks.h
+	<Box2D/Common/b2Settings.h>
+
+1265019168 q:\bobsgame\lib\box2d_v2.1.2\include\box2d\dynamics\b2timestep.h
+	<Box2D/Common/b2Settings.h>
+
+1269364864 q:\bobsgame\lib\box2d_v2.1.2\include\box2d\dynamics\b2world.h
+	<Box2D/Common/b2Math.h>
+	<Box2D/Common/b2BlockAllocator.h>
+	<Box2D/Common/b2StackAllocator.h>
+	<Box2D/Dynamics/b2ContactManager.h>
+	<Box2D/Dynamics/b2WorldCallbacks.h>
+
+1265019168 q:\bobsgame\lib\box2d_v2.1.2\include\box2d\common\b2stackallocator.h
+	<Box2D/Common/b2Settings.h>
+
+1269244176 q:\bobsgame\lib\box2d_v2.1.2\include\box2d\dynamics\b2contactmanager.h
+	<Box2D/Collision/b2BroadPhase.h>
+
+1271315540 q:\bobsgame\lib\box2d_v2.1.2\include\box2d\dynamics\contacts\b2contact.h
+	<Box2D/Common/b2Math.h>
+	<Box2D/Collision/b2Collision.h>
+	<Box2D/Collision/Shapes/b2Shape.h>
+	<Box2D/Dynamics/Contacts/b2Contact.h>
+	<Box2D/Dynamics/b2Fixture.h>
+
+1270342614 q:\bobsgame\lib\box2d_v2.1.2\include\box2d\dynamics\joints\b2distancejoint.h
+	<Box2D/Dynamics/Joints/b2Joint.h>
+
+1265019168 q:\bobsgame\lib\box2d_v2.1.2\include\box2d\dynamics\joints\b2joint.h
+	<Box2D/Common/b2Math.h>
+
+1265019168 q:\bobsgame\lib\box2d_v2.1.2\include\box2d\dynamics\joints\b2frictionjoint.h
+	<Box2D/Dynamics/Joints/b2Joint.h>
+
+1265019168 q:\bobsgame\lib\box2d_v2.1.2\include\box2d\dynamics\joints\b2gearjoint.h
+	<Box2D/Dynamics/Joints/b2Joint.h>
+
+1267519956 q:\bobsgame\lib\box2d_v2.1.2\include\box2d\dynamics\joints\b2linejoint.h
+	<Box2D/Dynamics/Joints/b2Joint.h>
+
+1265019168 q:\bobsgame\lib\box2d_v2.1.2\include\box2d\dynamics\joints\b2mousejoint.h
+	<Box2D/Dynamics/Joints/b2Joint.h>
+
+1267438540 q:\bobsgame\lib\box2d_v2.1.2\include\box2d\dynamics\joints\b2prismaticjoint.h
+	<Box2D/Dynamics/Joints/b2Joint.h>
+
+1265019168 q:\bobsgame\lib\box2d_v2.1.2\include\box2d\dynamics\joints\b2pulleyjoint.h
+	<Box2D/Dynamics/Joints/b2Joint.h>
+
+1265019168 q:\bobsgame\lib\box2d_v2.1.2\include\box2d\dynamics\joints\b2revolutejoint.h
+	<Box2D/Dynamics/Joints/b2Joint.h>
+
+1265019168 q:\bobsgame\lib\box2d_v2.1.2\include\box2d\dynamics\joints\b2weldjoint.h
+	<Box2D/Dynamics/Joints/b2Joint.h>
+
+1167720928 q:\bobsgame\lib\guichan-0.6.1\include\guichan.hpp
+	<guichan/actionevent.hpp>
+	<guichan/actionlistener.hpp>
+	<guichan/graphics.hpp>
+	<guichan/color.hpp>
+	<guichan/deathlistener.hpp>
+	<guichan/event.hpp>
+	<guichan/exception.hpp>
+	<guichan/focushandler.hpp>
+	<guichan/font.hpp>
+	<guichan/gui.hpp>
+	<guichan/image.hpp>
+	<guichan/imagefont.hpp>
+	<guichan/imageloader.hpp>
+	<guichan/input.hpp>
+	<guichan/inputevent.hpp>
+	<guichan/key.hpp>
+	<guichan/keyevent.hpp>
+	<guichan/keyinput.hpp>
+	<guichan/keylistener.hpp>
+	<guichan/listmodel.hpp>
+	<guichan/mouseevent.hpp>
+	<guichan/mouseinput.hpp>
+	<guichan/mouselistener.hpp>
+	<guichan/rectangle.hpp>
+	<guichan/cliprectangle.hpp>
+	<guichan/widget.hpp>
+	<guichan/widgets/button.hpp>
+	<guichan/widgets/checkbox.hpp>
+	<guichan/widgets/container.hpp>
+	<guichan/widgets/dropdown.hpp>
+	<guichan/widgets/icon.hpp>
+	<guichan/widgets/label.hpp>
+	<guichan/widgets/listbox.hpp>
+	<guichan/widgets/scrollarea.hpp>
+	<guichan/widgets/slider.hpp>
+	<guichan/widgets/radiobutton.hpp>
+	<guichan/widgets/textbox.hpp>
+	<guichan/widgets/textfield.hpp>
+	<guichan/widgets/window.hpp>
+	"guichan/platform.hpp"
+
+1167720928 q:\bobsgame\lib\guichan-0.6.1\include\guichan\actionevent.hpp
+	"guichan/event.hpp"
+	"guichan/platform.hpp"
+	<string>
+
+1167720928 q:\bobsgame\lib\guichan-0.6.1\include\guichan\event.hpp
+	"guichan/platform.hpp"
+
+1167720928 q:\bobsgame\lib\guichan-0.6.1\include\guichan\platform.hpp
+
+1167720928 q:\bobsgame\lib\guichan-0.6.1\include\guichan\actionlistener.hpp
+	<string>
+	"guichan/actionevent.hpp"
+	"guichan/platform.hpp"
+
+1167720928 q:\bobsgame\lib\guichan-0.6.1\include\guichan\graphics.hpp
+	<iosfwd>
+	<stack>
+	"guichan/cliprectangle.hpp"
+	"guichan/platform.hpp"
+
+1167720928 q:\bobsgame\lib\guichan-0.6.1\include\guichan\cliprectangle.hpp
+	"guichan/rectangle.hpp"
+	"guichan/platform.hpp"
+
+1167720928 q:\bobsgame\lib\guichan-0.6.1\include\guichan\rectangle.hpp
+	"guichan/platform.hpp"
+
+1167720928 q:\bobsgame\lib\guichan-0.6.1\include\guichan\color.hpp
+	"guichan/platform.hpp"
+
+1167720928 q:\bobsgame\lib\guichan-0.6.1\include\guichan\deathlistener.hpp
+	<string>
+	"guichan/event.hpp"
+	"guichan/platform.hpp"
+
+1168751032 q:\bobsgame\lib\guichan-0.6.1\include\guichan\exception.hpp
+	<string>
+	"guichan/platform.hpp"
+
+1167720928 q:\bobsgame\lib\guichan-0.6.1\include\guichan\focushandler.hpp
+	<vector>
+	"guichan/platform.hpp"
+
+1167720928 q:\bobsgame\lib\guichan-0.6.1\include\guichan\font.hpp
+	<string>
+	"guichan/platform.hpp"
+
+1168749500 q:\bobsgame\lib\guichan-0.6.1\include\guichan\gui.hpp
+	<list>
+	"guichan/keyevent.hpp"
+	"guichan/mouseevent.hpp"
+	"guichan/mouseinput.hpp"
+	"guichan/platform.hpp"
+
+1168749500 q:\bobsgame\lib\guichan-0.6.1\include\guichan\keyevent.hpp
+	"guichan/inputevent.hpp"
+	"guichan/key.hpp"
+	"guichan/platform.hpp"
+
+1167774430 q:\bobsgame\lib\guichan-0.6.1\include\guichan\inputevent.hpp
+	"guichan/event.hpp"
+	"guichan/platform.hpp"
+
+1167720928 q:\bobsgame\lib\guichan-0.6.1\include\guichan\key.hpp
+	"guichan/platform.hpp"
+
+1168749500 q:\bobsgame\lib\guichan-0.6.1\include\guichan\mouseevent.hpp
+	"guichan/inputevent.hpp"
+	"guichan/platform.hpp"
+
+1168749500 q:\bobsgame\lib\guichan-0.6.1\include\guichan\mouseinput.hpp
+	"guichan/platform.hpp"
+
+1167720928 q:\bobsgame\lib\guichan-0.6.1\include\guichan\image.hpp
+	<string>
+	"guichan/platform.hpp"
+
+1167720928 q:\bobsgame\lib\guichan-0.6.1\include\guichan\imagefont.hpp
+	<string>
+	"guichan/font.hpp"
+	"guichan/platform.hpp"
+	"guichan/rectangle.hpp"
+
+1167720928 q:\bobsgame\lib\guichan-0.6.1\include\guichan\imageloader.hpp
+	<iosfwd>
+	"guichan/platform.hpp"
+
+1167720928 q:\bobsgame\lib\guichan-0.6.1\include\guichan\input.hpp
+	"guichan/platform.hpp"
+
+1168749500 q:\bobsgame\lib\guichan-0.6.1\include\guichan\keyinput.hpp
+	"guichan/key.hpp"
+	"guichan/platform.hpp"
+
+1167720928 q:\bobsgame\lib\guichan-0.6.1\include\guichan\keylistener.hpp
+	"guichan/keyevent.hpp"
+	"guichan/platform.hpp"
+
+1167720928 q:\bobsgame\lib\guichan-0.6.1\include\guichan\listmodel.hpp
+	<string>
+	"guichan/platform.hpp"
+
+1167720928 q:\bobsgame\lib\guichan-0.6.1\include\guichan\mouselistener.hpp
+	"guichan/mouseevent.hpp"
+	"guichan/platform.hpp"
+
+1169606580 q:\bobsgame\lib\guichan-0.6.1\include\guichan\widget.hpp
+	<list>
+	<string>
+	"guichan/color.hpp"
+	"guichan/rectangle.hpp"
+
+1168749500 q:\bobsgame\lib\guichan-0.6.1\include\guichan\widgets\button.hpp
+	<string>
+	"guichan/keylistener.hpp"
+	"guichan/mouseevent.hpp"
+	"guichan/mouselistener.hpp"
+	"guichan/platform.hpp"
+	"guichan/widget.hpp"
+
+1167774432 q:\bobsgame\lib\guichan-0.6.1\include\guichan\widgets\checkbox.hpp
+	<string>
+	"guichan/keylistener.hpp"
+	"guichan/mouselistener.hpp"
+	"guichan/platform.hpp"
+	"guichan/widget.hpp"
+
+1167720930 q:\bobsgame\lib\guichan-0.6.1\include\guichan\widgets\container.hpp
+	<list>
+	"guichan/basiccontainer.hpp"
+	"guichan/graphics.hpp"
+	"guichan/platform.hpp"
+
+1169606578 q:\bobsgame\lib\guichan-0.6.1\include\guichan\basiccontainer.hpp
+	<list>
+	"guichan/deathlistener.hpp"
+	"guichan/platform.hpp"
+	"guichan/widget.hpp"
+
+1167774432 q:\bobsgame\lib\guichan-0.6.1\include\guichan\widgets\dropdown.hpp
+	"guichan/actionlistener.hpp"
+	"guichan/basiccontainer.hpp"
+	"guichan/deathlistener.hpp"
+	"guichan/focushandler.hpp"
+	"guichan/keylistener.hpp"
+	"guichan/listmodel.hpp"
+	"guichan/mouselistener.hpp"
+	"guichan/platform.hpp"
+	"guichan/widgets/listbox.hpp"
+	"guichan/widgets/scrollarea.hpp"
+
+1167774432 q:\bobsgame\lib\guichan-0.6.1\include\guichan\widgets\listbox.hpp
+	"guichan/keylistener.hpp"
+	"guichan/listmodel.hpp"
+	"guichan/mouselistener.hpp"
+	"guichan/platform.hpp"
+	"guichan/widget.hpp"
+
+1167720930 q:\bobsgame\lib\guichan-0.6.1\include\guichan\widgets\scrollarea.hpp
+	<string>
+	"guichan/basiccontainer.hpp"
+	"guichan/mouselistener.hpp"
+	"guichan/platform.hpp"
+
+1167720930 q:\bobsgame\lib\guichan-0.6.1\include\guichan\widgets\icon.hpp
+	"guichan/image.hpp"
+	"guichan/platform.hpp"
+	"guichan/widget.hpp"
+
+1167720930 q:\bobsgame\lib\guichan-0.6.1\include\guichan\widgets\label.hpp
+	<string>
+	"guichan/platform.hpp"
+	"guichan/widget.hpp"
+
+1167720930 q:\bobsgame\lib\guichan-0.6.1\include\guichan\widgets\slider.hpp
+	"guichan/keylistener.hpp"
+	"guichan/mouselistener.hpp"
+	"guichan/platform.hpp"
+	"guichan/widget.hpp"
+
+1167774432 q:\bobsgame\lib\guichan-0.6.1\include\guichan\widgets\radiobutton.hpp
+	<map>
+	<string>
+	"guichan/keylistener.hpp"
+	"guichan/mouselistener.hpp"
+	"guichan/platform.hpp"
+	"guichan/widget.hpp"
+
+1167774432 q:\bobsgame\lib\guichan-0.6.1\include\guichan\widgets\textbox.hpp
+	<ctime>
+	<string>
+	<vector>
+	"guichan/keylistener.hpp"
+	"guichan/mouselistener.hpp"
+	"guichan/platform.hpp"
+	"guichan/widget.hpp"
+
+1167774432 q:\bobsgame\lib\guichan-0.6.1\include\guichan\widgets\textfield.hpp
+	"guichan/keylistener.hpp"
+	"guichan/mouselistener.hpp"
+	"guichan/platform.hpp"
+	"guichan/widget.hpp"
+	<string>
+
+1167720930 q:\bobsgame\lib\guichan-0.6.1\include\guichan\widgets\window.hpp
+	<string>
+	"guichan/mouselistener.hpp"
+	"guichan/platform.hpp"
+	"guichan/widgets/container.hpp"
+
+1167720928 q:\bobsgame\lib\guichan-0.6.1\include\guichan\sdl.hpp
+	<guichan/sdl/sdlgraphics.hpp>
+	<guichan/sdl/sdlimage.hpp>
+	<guichan/sdl/sdlimageloader.hpp>
+	<guichan/sdl/sdlinput.hpp>
+	"platform.hpp"
+
+1167720928 q:\bobsgame\lib\guichan-0.6.1\include\guichan\sdl\sdlgraphics.hpp
+	"SDL.h"
+	"guichan/color.hpp"
+	"guichan/graphics.hpp"
+	"guichan/platform.hpp"
+
+1167720928 q:\bobsgame\lib\guichan-0.6.1\include\guichan\sdl\sdlimage.hpp
+	"SDL.h"
+	<string>
+	"guichan/color.hpp"
+	"guichan/platform.hpp"
+	"guichan/image.hpp"
+
+1167720928 q:\bobsgame\lib\guichan-0.6.1\include\guichan\sdl\sdlimageloader.hpp
+	"guichan/imageloader.hpp"
+	"guichan/platform.hpp"
+	"SDL.h"
+
+1168749500 q:\bobsgame\lib\guichan-0.6.1\include\guichan\sdl\sdlinput.hpp
+	<queue>
+	"SDL.h"
+	"guichan/input.hpp"
+	"guichan/keyinput.hpp"
+	"guichan/mouseinput.hpp"
+	"guichan/platform.hpp"
+
+1167720928 q:\bobsgame\lib\guichan-0.6.1\include\guichan\opengl.hpp
+	<guichan/opengl/openglgraphics.hpp>
+	<guichan/opengl/openglimage.hpp>
+	"guichan/platform.hpp"
+
+1167720928 q:\bobsgame\lib\guichan-0.6.1\include\guichan\opengl\openglgraphics.hpp
+	"guichan/color.hpp"
+	"guichan/graphics.hpp"
+	"guichan/platform.hpp"
+
+1168827486 q:\bobsgame\lib\guichan-0.6.1\include\guichan\opengl\openglimage.hpp
+	<windows.h>
+	<mgl/gl.h>
+	<OpenGL/gl.h>
+	<GL/gl.h>
+	<string>
+	"guichan/color.hpp"
+	"guichan/platform.hpp"
+	"guichan/image.hpp"
+
+1167720928 q:\bobsgame\lib\guichan-0.6.1\include\guichan\opengl\openglsdlimageloader.hpp
+	<guichan/sdl/sdlimageloader.hpp>
+	<guichan/exception.hpp>
+	<guichan/opengl/openglimage.hpp>
+
+1315917557 q:\bobsgame\src\main.hpp
+	<stdlib.h>
+	<math.h>
+	<unistd.h>
+	<time.h>
+	<stdint.h>
+	"engine/init/types.hpp"
+	<GL/glew.h>
+	<GL/wglew.h>
+	<iostream>
+	"SDL.h"
+	"SDL_opengl.h"
+	"SDL_mixer.h"
+	"SDL_ttf.h"
+	"SDL_image.h"
+	"SDL_net.h"
+	"SDL_rotozoom.h"
+	"SDL_config_lib.h"
+	"chipmunk.h"
+	"Box2D/Box2D.h"
+	<guichan.hpp>
+	<guichan/sdl.hpp>
+	<guichan/opengl.hpp>
+	<guichan/opengl/openglsdlimageloader.hpp>
+	"../lib/ini/iniparser.h"
+	"../lib/ini/textfile.h"
+	"engine/main/globals.hpp"
+	"engine/port/misc.hpp"
+	"engine/port/sound.hpp"
+	"engine/port/tilemaps.hpp"
+	"engine/port/sprites.hpp"
+	"engine/game.hpp"
+	"engine/game/npc.hpp"
+	"engine/game/caption.hpp"
+	"engine/game/player.hpp"
+	"engine/game/map.hpp"
+	"engine/game/txt.hpp"
+	"engine/game/txtkeyboard.hpp"
+	"engine/game/txtanswer.hpp"
+	"engine/game/letterbox.hpp"
+	"engine/game/action.hpp"
+	"engine/game/clock.hpp"
+	"engine/game/save.hpp"
+	"engine/game/music.hpp"
+	"engine/game/item.hpp"
+	"engine/game/start.hpp"
+	"engine/main/debug.hpp"
+	"engine/main/render.hpp"
+	"engine/main/error.hpp"
+	"engine/main/controls.hpp"
+	"engine/init/game_vars.hpp"
+	"gamelogic/changemap.hpp"
+	"gamelogic/town/yuushouse.hpp"
+	"gamelogic/town/toolshed.hpp"
+	"gamelogic/intro/introtown.hpp"
+	"gamelogic/intro/introyuushouse.hpp"
+	"gamelogic/city/apartment.hpp"
+	"gamelogic/town/arcade.hpp"
+	"gamelogic/town/beautysalon.hpp"
+	"gamelogic/town/bookstore.hpp"
+	"gamelogic/town/church.hpp"
+	"gamelogic/town/clubhouse.hpp"
+	"gamelogic/town/coffeeshop.hpp"
+	"gamelogic/town/crazyladyhouse.hpp"
+	"gamelogic/town/departmentstore.hpp"
+	"gamelogic/town/doctorsoffice.hpp"
+	"gamelogic/town/electronicsstore.hpp"
+	"gamelogic/town/friendshouse.hpp"
+	"gamelogic/town/gamestore.hpp"
+	"gamelogic/town/gasstation.hpp"
+	"gamelogic/town/generichouses.hpp"
+	"gamelogic/town/grocerystore.hpp"
+	"gamelogic/town/mansion.hpp"
+	"gamelogic/town/movietheater.hpp"
+	"gamelogic/town/petstore.hpp"
+	"gamelogic/town/pizzaplace.hpp"
+	"gamelogic/town/playground.hpp"
+	"gamelogic/town/recordstore.hpp"
+	"gamelogic/town/school.hpp"
+	"gamelogic/town/tacoburger.hpp"
+	"gamelogic/town/town.hpp"
+	"gamelogic/town/videostore.hpp"
+	"gamelogic/city/bank.hpp"
+	"gamelogic/city/casino.hpp"
+	"gamelogic/city/city.hpp"
+	"gamelogic/city/cityhall.hpp"
+	"gamelogic/city/deli.hpp"
+	"gamelogic/city/elevatedlifeplace.hpp"
+	"gamelogic/city/fashionstore.hpp"
+	"gamelogic/city/firestation.hpp"
+	"gamelogic/city/groovyclub.hpp"
+	"gamelogic/city/hospital.hpp"
+	"gamelogic/city/hotel.hpp"
+	"gamelogic/city/hourlymotel.hpp"
+	"gamelogic/city/laundromat.hpp"
+	"gamelogic/city/museum.hpp"
+	"gamelogic/city/office.hpp"
+	"gamelogic/city/partystore.hpp"
+	"gamelogic/city/pawnshop.hpp"
+	"gamelogic/city/policestation.hpp"
+	"gamelogic/city/poolhall.hpp"
+	"gamelogic/city/restaurant.hpp"
+	"gamelogic/city/stadium.hpp"
+	"gamelogic/city/thecafe.hpp"
+	"gamelogic/other/japanhouse.hpp"
+	"gamelogic/other/castroom.hpp"
+	"gamelogic/other/meetingroom.hpp"
+	"gamelogic/title/titlescreen.hpp"
+	"gamelogic/title/warning.hpp"
+	"gamelogic/title/license.hpp"
+	"gamelogic/title/demoend.hpp"
+	"gamelogic/other/minigame.hpp"
+	"minigame/tetrid.hpp"
+	"minigame/ping.hpp"
+	"minigame/ramio.hpp"
+
+1315742098 q:\bobsgame\src\engine\init\types.hpp
+
+1315917416 q:\bobsgame\src\engine\main\globals.hpp
+
+1310226213 q:\bobsgame\src\engine\init\defines.hpp
+
+1315912591 q:\bobsgame\src\engine\init\vars.hpp
+
+1310590023 q:\bobsgame\src\engine\init\gfx_vars.hpp
+
+1315916969 q:\bobsgame\src\engine\init\game_vars.hpp
+
+1315911770 q:\bobsgame\src\engine\port\port.hpp
+
+1315911802 q:\bobsgame\src\engine\port\port_sound.hpp
+
+1315661173 q:\bobsgame\src\engine\port\port_tilemaps.hpp
+
+1315662846 q:\bobsgame\src\engine\port\port_sprites.hpp
+
+1315906202 q:\bobsgame\src\engine\init\prototypes.hpp
+
+1309859477 q:\bobsgame\src\engine\init\itemglobals.hpp
+
+1310226257 q:\bobsgame\src\engine\main\debug.hpp
+
+1309971174 q:\bobsgame\src\gamelogic\gamelogicprototypes.hpp
+
+1315668735 q:\bobsgame\src\gamelogic\changemap.hpp
+
+1315917866 q:\bobsgame\src\engine\game\npc.hpp
+	"npcfuncs.hpp"
+	"npcrand.hpp"
+	"npccar.hpp"
+
+1315918016 q:\bobsgame\src\engine\game\player.hpp
+
+1315918001 q:\bobsgame\src\engine\game\map.hpp
+
+1315919268 q:\bobsgame\src\engine\game\txt.hpp
+
+1315917576 q:\bobsgame\src\engine\game\txtanswer.hpp
+
+1315917206 q:\bobsgame\src\engine\game\caption.hpp
+
+1315916529 q:\bobsgame\src\engine\game\letterbox.hpp
+
+1315917216 q:\bobsgame\src\engine\game\action.hpp
+
+1315918016 q:\bobsgame\src\engine\game\clock.hpp
+
+1315914660 q:\bobsgame\src\engine\game\save.hpp
+
+1315916570 q:\bobsgame\src\engine\game\music.hpp
+
+1315917896 q:\bobsgame\src\engine\game\item.hpp
+
+1315918028 q:\bobsgame\src\engine\game\start.hpp
+
+1310314753 q:\bobsgame\src\gamelogic\town\yuushouse.hpp
+
+1309971175 q:\bobsgame\src\gamelogic\town\toolshed.hpp
+
+1310509746 q:\bobsgame\src\gamelogic\intro\introtown.hpp
+
+1315852436 q:\bobsgame\src\gamelogic\intro\introyuushouse.hpp
+
+1315852197 q:\bobsgame\src\gamelogic\city\apartment.hpp
+
+1315852199 q:\bobsgame\src\gamelogic\town\arcade.hpp
+
+1315852199 q:\bobsgame\src\gamelogic\town\beautysalon.hpp
+
+1315852199 q:\bobsgame\src\gamelogic\town\bookstore.hpp
+
+1315852199 q:\bobsgame\src\gamelogic\town\church.hpp
+
+1309971174 q:\bobsgame\src\gamelogic\town\clubhouse.hpp
+
+1315852199 q:\bobsgame\src\gamelogic\town\coffeeshop.hpp
+
+1310117101 q:\bobsgame\src\gamelogic\town\crazyladyhouse.hpp
+
+1315852199 q:\bobsgame\src\gamelogic\town\departmentstore.hpp
+
+1310117101 q:\bobsgame\src\gamelogic\town\doctorsoffice.hpp
+
+1315852200 q:\bobsgame\src\gamelogic\town\electronicsstore.hpp
+
+1315852200 q:\bobsgame\src\gamelogic\town\friendshouse.hpp
+
+1315852200 q:\bobsgame\src\gamelogic\town\gamestore.hpp
+
+1315852200 q:\bobsgame\src\gamelogic\town\gasstation.hpp
+
+1309971174 q:\bobsgame\src\gamelogic\town\generichouses.hpp
+
+1315852200 q:\bobsgame\src\gamelogic\town\grocerystore.hpp
+
+1309971174 q:\bobsgame\src\gamelogic\town\mansion.hpp
+
+1315852200 q:\bobsgame\src\gamelogic\town\movietheater.hpp
+
+1315852200 q:\bobsgame\src\gamelogic\town\petstore.hpp
+
+1315852200 q:\bobsgame\src\gamelogic\town\pizzaplace.hpp
+
+1315852200 q:\bobsgame\src\gamelogic\town\playground.hpp
+
+1315852200 q:\bobsgame\src\gamelogic\town\recordstore.hpp
+
+1315897990 q:\bobsgame\src\gamelogic\town\school.hpp
+
+1315852200 q:\bobsgame\src\gamelogic\town\tacoburger.hpp
+
+1315852200 q:\bobsgame\src\gamelogic\town\town.hpp
+
+1315852200 q:\bobsgame\src\gamelogic\town\videostore.hpp
+
+1315852198 q:\bobsgame\src\gamelogic\city\bank.hpp
+
+1315852435 q:\bobsgame\src\gamelogic\city\casino.hpp
+
+1310226212 q:\bobsgame\src\gamelogic\city\city.hpp
+
+1315852435 q:\bobsgame\src\gamelogic\city\cityhall.hpp
+
+1315852436 q:\bobsgame\src\gamelogic\city\deli.hpp
+
+1315852198 q:\bobsgame\src\gamelogic\city\elevatedlifeplace.hpp
+
+1315852198 q:\bobsgame\src\gamelogic\city\fashionstore.hpp
+
+1315852198 q:\bobsgame\src\gamelogic\city\firestation.hpp
+
+1315852198 q:\bobsgame\src\gamelogic\city\groovyclub.hpp
+
+1315852435 q:\bobsgame\src\gamelogic\city\hospital.hpp
+
+1315852198 q:\bobsgame\src\gamelogic\city\hotel.hpp
+
+1315852198 q:\bobsgame\src\gamelogic\city\hourlymotel.hpp
+
+1315852198 q:\bobsgame\src\gamelogic\city\laundromat.hpp
+
+1315852199 q:\bobsgame\src\gamelogic\city\museum.hpp
+
+1315852199 q:\bobsgame\src\gamelogic\city\office.hpp
+
+1315852199 q:\bobsgame\src\gamelogic\city\partystore.hpp
+
+1315852199 q:\bobsgame\src\gamelogic\city\pawnshop.hpp
+
+1315852199 q:\bobsgame\src\gamelogic\city\policestation.hpp
+
+1315852199 q:\bobsgame\src\gamelogic\city\poolhall.hpp
+
+1315852199 q:\bobsgame\src\gamelogic\city\restaurant.hpp
+
+1315897990 q:\bobsgame\src\gamelogic\city\stadium.hpp
+
+1315852199 q:\bobsgame\src\gamelogic\city\thecafe.hpp
+
+1315852199 q:\bobsgame\src\gamelogic\other\japanhouse.hpp
+
+1310960599 q:\bobsgame\src\gamelogic\other\castroom.hpp
+
+1310117100 q:\bobsgame\src\gamelogic\other\meetingroom.hpp
+
+1315666604 q:\bobsgame\src\gamelogic\title\titlescreen.hpp
+
+1315667072 q:\bobsgame\src\gamelogic\title\warning.hpp
+
+1315667070 q:\bobsgame\src\gamelogic\title\license.hpp
+
+1315667314 q:\bobsgame\src\gamelogic\title\demoend.hpp
+
+1315667506 q:\bobsgame\src\gamelogic\other\minigame.hpp
+
+1315667548 q:\bobsgame\src\minigame\tetrid.hpp
+
+1315667567 q:\bobsgame\src\minigame\ping.hpp
+
+1315670056 q:\bobsgame\src\minigame\ramio.hpp
+
+1315921045 q:\bobsgame\src\engine\game.hpp
+
+1314735982 q:\bobsgame\src\engine\main\render.hpp
+
+1315667760 q:\bobsgame\src\engine\main\error.hpp
+
+1310583829 q:\bobsgame\src\engine\main\controls.hpp
+
+1316454268 source:q:\bobsgame\src\engine\game.cpp
+	"../main.h"
+
+1315914855 q:\bobsgame\src\engine\game\npcfuncs.hpp
+
+1315914855 q:\bobsgame\src\engine\game\npcrand.hpp
+
+1315914855 q:\bobsgame\src\engine\game\npccar.hpp
+
+1315918770 q:\bobsgame\src\engine\game\txtkeyboard.hpp
+
+1316454268 source:q:\bobsgame\src\engine\game\npc.cpp
+	"../../main.h"
+
+1316454269 source:q:\bobsgame\src\engine\game\npccar.cpp
+	"../../main.h"
+
+1316454269 source:q:\bobsgame\src\engine\game\npcfuncs.cpp
+	"../../main.h"
+
+1316454269 source:q:\bobsgame\src\engine\game\npcrand.cpp
+	"../../main.h"
+
+1315920658 q:\bobsgame\src\engine\port\misc.hpp
+
+1315921055 q:\bobsgame\src\engine\port\sound.hpp
+
+1315917803 q:\bobsgame\src\engine\port\tilemaps.hpp
+
+1315918149 q:\bobsgame\src\engine\port\sprites.hpp
+
+1316454269 source:q:\bobsgame\src\engine\game\action.cpp
+	"../../main.h"
+
+1316454269 source:q:\bobsgame\src\engine\game\caption.cpp
+	"../../main.h"
+
+1316454269 source:q:\bobsgame\src\engine\game\clock.cpp
+	"../../main.h"
+
+1316454269 source:q:\bobsgame\src\engine\game\item.cpp
+	"../../main.h"
+
+1316454269 source:q:\bobsgame\src\engine\game\letterbox.cpp
+	"../../main.h"
+
+1316454269 source:q:\bobsgame\src\engine\game\map.cpp
+	"../../main.h"
+
+1316112921 source:q:\bobsgame\src\engine\game\music.cpp
+	"../../main.h"
+
+1316454268 source:q:\bobsgame\src\engine\game\player.cpp
+	"../../main.h"
+
+1315946324 source:q:\bobsgame\src\engine\game\save.cpp
+	"../../main.h"
+
+1316454269 source:q:\bobsgame\src\engine\game\start.cpp
+	"../../main.h"
+
+1316454269 source:q:\bobsgame\src\engine\game\txt.cpp
+	"../../main.h"
+
+1316454269 source:q:\bobsgame\src\engine\game\txtanswer.cpp
+	"../../main.h"
+
+1316454269 source:q:\bobsgame\src\engine\game\txtkeyboard.cpp
+	"../../main.h"
+
+1315946324 source:q:\bobsgame\src\engine\port\misc.cpp
+	"../../main.h"
+
+1315988118 source:q:\bobsgame\src\engine\port\sound.cpp
+	"../../main.h"
+
+1315988279 source:q:\bobsgame\src\engine\port\sprites.cpp
+	"../../main.h"
+	"gfx_vars.h"
+
+1315988841 source:q:\bobsgame\src\engine\port\tilemaps.cpp
+	"../../main.h"
+
+1316440368 q:\bobsgame\src\main.h
+	<stdlib.h>
+	<math.h>
+	<unistd.h>
+	<time.h>
+	<stdint.h>
+	"engine/main/types.h"
+	<iostream>
+	<GL/glew.h>
+	<GL/wglew.h>
+	"SDL.h"
+	"SDL_opengl.h"
+	"SDL_mixer.h"
+	"SDL_ttf.h"
+	"SDL_image.h"
+	"SDL_net.h"
+	"SDL_rotozoom.h"
+	"SDL_config_lib.h"
+	"chipmunk.h"
+	"Box2D/Box2D.h"
+	<guichan.hpp>
+	<guichan/sdl.hpp>
+	<guichan/opengl.hpp>
+	<guichan/opengl/openglsdlimageloader.hpp>
+	"../lib/ini/iniparser.h"
+	"../lib/ini/textfile.h"
+	"engine/game.h"
+	"engine/main/debug.h"
+	"engine/main/render.h"
+	"engine/main/error.h"
+	"engine/main/controls.h"
+	"engine/main/misc.h"
+	"engine/main/sound.h"
+	"engine/main/tilemaps.h"
+	"engine/main/sprites.h"
+	"engine/game/npc.h"
+	"engine/game/npcfuncs.h"
+	"engine/game/npcrand.h"
+	"engine/game/npccar.h"
+	"engine/game/caption.h"
+	"engine/game/player.h"
+	"engine/game/map.h"
+	"engine/game/txt.h"
+	"engine/game/txtkeyboard.h"
+	"engine/game/txtanswer.h"
+	"engine/game/letterbox.h"
+	"engine/game/action.h"
+	"engine/game/clock.h"
+	"engine/game/save.h"
+	"engine/game/music.h"
+	"engine/game/item.h"
+	"engine/game/start.h"
+	"gamelogic/changemap.h"
+	"gamelogic/intro/introtown.h"
+	"gamelogic/intro/introyuushouse.h"
+	"gamelogic/town/town.h"
+	"gamelogic/town/yuushouse.h"
+	"gamelogic/town/arcade.h"
+	"gamelogic/town/beautysalon.h"
+	"gamelogic/town/bookstore.h"
+	"gamelogic/town/church.h"
+	"gamelogic/town/clubhouse.h"
+	"gamelogic/town/coffeeshop.h"
+	"gamelogic/town/crazyladyhouse.h"
+	"gamelogic/town/departmentstore.h"
+	"gamelogic/town/doctorsoffice.h"
+	"gamelogic/town/electronicsstore.h"
+	"gamelogic/town/friendshouse.h"
+	"gamelogic/town/gamestore.h"
+	"gamelogic/town/gasstation.h"
+	"gamelogic/town/generichouses.h"
+	"gamelogic/town/grocerystore.h"
+	"gamelogic/town/mansion.h"
+	"gamelogic/town/movietheater.h"
+	"gamelogic/town/petstore.h"
+	"gamelogic/town/pizzaplace.h"
+	"gamelogic/town/playground.h"
+	"gamelogic/town/recordstore.h"
+	"gamelogic/town/school.h"
+	"gamelogic/town/tacoburger.h"
+	"gamelogic/town/town.h"
+	"gamelogic/town/videostore.h"
+	"gamelogic/town/toolshed.h"
+	"gamelogic/city/city.h"
+	"gamelogic/city/apartment.h"
+	"gamelogic/city/bank.h"
+	"gamelogic/city/casino.h"
+	"gamelogic/city/cityhall.h"
+	"gamelogic/city/deli.h"
+	"gamelogic/city/elevatedlifeplace.h"
+	"gamelogic/city/fashionstore.h"
+	"gamelogic/city/firestation.h"
+	"gamelogic/city/groovyclub.h"
+	"gamelogic/city/hospital.h"
+	"gamelogic/city/hotel.h"
+	"gamelogic/city/hourlymotel.h"
+	"gamelogic/city/laundromat.h"
+	"gamelogic/city/museum.h"
+	"gamelogic/city/office.h"
+	"gamelogic/city/partystore.h"
+	"gamelogic/city/pawnshop.h"
+	"gamelogic/city/policestation.h"
+	"gamelogic/city/poolhall.h"
+	"gamelogic/city/restaurant.h"
+	"gamelogic/city/stadium.h"
+	"gamelogic/city/thecafe.h"
+	"gamelogic/other/japanhouse.h"
+	"gamelogic/other/castroom.h"
+	"gamelogic/other/meetingroom.h"
+	"gamelogic/title/titlescreen.h"
+	"gamelogic/title/warning.h"
+	"gamelogic/title/license.h"
+	"gamelogic/title/demoend.h"
+	"gamelogic/other/minigame.h"
+	"minigame/tetrid.h"
+	"minigame/ping.h"
+	"minigame/ramio.h"
+
+1315988014 q:\bobsgame\src\engine\port\misc.h
+
+1315988123 q:\bobsgame\src\engine\port\sound.h
+
+1315988680 q:\bobsgame\src\engine\port\tilemaps.h
+
+1315990106 q:\bobsgame\src\engine\port\sprites.h
+
+1316454269 source:q:\bobsgame\src\engine\main\controls.cpp
+	"../../main.h"
+
+1316454269 source:q:\bobsgame\src\engine\main\debug.cpp
+	"../../main.h"
+
+1316454269 source:q:\bobsgame\src\engine\main\error.cpp
+	"../../main.h"
+
+1315946324 source:q:\bobsgame\src\engine\main\globals.cpp
+	"../../main.h"
+
+1316454270 source:q:\bobsgame\src\engine\main\render.cpp
+	"../../main.h"
+
+1315940401 source:q:\bobsgame\src\gamelogic\changemap.cpp
+	"../main.h"
+	"changemap.h"
+
+1316118905 source:q:\bobsgame\src\gamelogic\city\apartment.cpp
+	"../../main.h"
+
+1316454270 source:q:\bobsgame\src\gamelogic\city\bank.cpp
+	"../../main.h"
+
+1316454270 source:q:\bobsgame\src\gamelogic\city\casino.cpp
+	"../../main.h"
+
+1316120312 source:q:\bobsgame\src\gamelogic\city\city.cpp
+	"../../main.h"
+
+1316454270 source:q:\bobsgame\src\gamelogic\city\cityhall.cpp
+	"../../main.h"
+
+1316118907 source:q:\bobsgame\src\gamelogic\city\deli.cpp
+	"../../main.h"
+
+1316120383 source:q:\bobsgame\src\gamelogic\city\elevatedlifeplace.cpp
+	"../../main.h"
+
+1316122028 source:q:\bobsgame\src\gamelogic\city\fashionstore.cpp
+	"../../main.h"
+
+1316454270 source:q:\bobsgame\src\gamelogic\city\firestation.cpp
+	"../../main.h"
+
+1316454270 source:q:\bobsgame\src\gamelogic\city\groovyclub.cpp
+	"../../main.h"
+
+1316454270 source:q:\bobsgame\src\gamelogic\city\hospital.cpp
+	"../../main.h"
+
+1316454270 source:q:\bobsgame\src\gamelogic\city\hotel.cpp
+	"../../main.h"
+
+1316454270 source:q:\bobsgame\src\gamelogic\city\hourlymotel.cpp
+	"../../main.h"
+
+1316454270 source:q:\bobsgame\src\gamelogic\city\laundromat.cpp
+	"../../main.h"
+
+1316454270 source:q:\bobsgame\src\gamelogic\city\museum.cpp
+	"../../main.h"
+
+1316454270 source:q:\bobsgame\src\gamelogic\city\office.cpp
+	"../../main.h"
+
+1316120643 source:q:\bobsgame\src\gamelogic\city\partystore.cpp
+	"../../main.h"
+
+1316454271 source:q:\bobsgame\src\gamelogic\city\pawnshop.cpp
+	"../../main.h"
+
+1316454271 source:q:\bobsgame\src\gamelogic\city\policestation.cpp
+	"../../main.h"
+
+1316120691 source:q:\bobsgame\src\gamelogic\city\poolhall.cpp
+	"../../main.h"
+
+1316454271 source:q:\bobsgame\src\gamelogic\city\restaurant.cpp
+	"../../main.h"
+
+1316454271 source:q:\bobsgame\src\gamelogic\city\stadium.cpp
+	"../../main.h"
+
+1316454271 source:q:\bobsgame\src\gamelogic\city\thecafe.cpp
+	"../../main.h"
+
+1316122028 source:q:\bobsgame\src\gamelogic\intro\introtown.cpp
+	"../../main.h"
+
+1316454271 source:q:\bobsgame\src\gamelogic\intro\introyuushouse.cpp
+	"../../main.h"
+
+1316454271 source:q:\bobsgame\src\gamelogic\other\castroom.cpp
+	"../../main.h"
+
+1316122028 source:q:\bobsgame\src\gamelogic\other\japanhouse.cpp
+	"../../main.h"
+
+1316118908 source:q:\bobsgame\src\gamelogic\other\meetingroom.cpp
+	"../../main.h"
+
+1316454271 source:q:\bobsgame\src\gamelogic\other\minigame.cpp
+	"../../main.h"
+
+1315946324 source:q:\bobsgame\src\gamelogic\title\demoend.cpp
+	"../../main.h"
+
+1315946325 source:q:\bobsgame\src\gamelogic\title\license.cpp
+	"../../main.h"
+
+1316454271 source:q:\bobsgame\src\gamelogic\title\titlescreen.cpp
+	"../../main.h"
+
+1315946321 source:q:\bobsgame\src\gamelogic\title\warning.cpp
+	"../../main.h"
+
+1316454271 source:q:\bobsgame\src\gamelogic\town\arcade.cpp
+	"../../main.h"
+
+1316454271 source:q:\bobsgame\src\gamelogic\town\beautysalon.cpp
+	"../../main.h"
+
+1316454271 source:q:\bobsgame\src\gamelogic\town\bookstore.cpp
+	"../../main.h"
+
+1316454271 source:q:\bobsgame\src\gamelogic\town\church.cpp
+	"../../main.h"
+
+1315985959 source:q:\bobsgame\src\gamelogic\town\clubhouse.cpp
+	"../../main.h"
+
+1316454271 source:q:\bobsgame\src\gamelogic\town\coffeeshop.cpp
+	"../../main.h"
+
+1316122028 source:q:\bobsgame\src\gamelogic\town\crazyladyhouse.cpp
+	"../../main.h"
+
+1316454271 source:q:\bobsgame\src\gamelogic\town\departmentstore.cpp
+	"../../main.h"
+
+1316454271 source:q:\bobsgame\src\gamelogic\town\doctorsoffice.cpp
+	"../../main.h"
+
+1316454271 source:q:\bobsgame\src\gamelogic\town\electronicsstore.cpp
+	"../../main.h"
+
+1316122028 source:q:\bobsgame\src\gamelogic\town\friendshouse.cpp
+	"../../main.h"
+
+1316454271 source:q:\bobsgame\src\gamelogic\town\gamestore.cpp
+	"../../main.h"
+
+1316454272 source:q:\bobsgame\src\gamelogic\town\gasstation.cpp
+	"../../main.h"
+
+1315985660 source:q:\bobsgame\src\gamelogic\town\generichouses.cpp
+	"../../main.h"
+
+1316454272 source:q:\bobsgame\src\gamelogic\town\grocerystore.cpp
+	"../../main.h"
+
+1315940408 source:q:\bobsgame\src\gamelogic\town\mansion.cpp
+	"../../main.h"
+
+1316454272 source:q:\bobsgame\src\gamelogic\town\movietheater.cpp
+	"../../main.h"
+
+1316454272 source:q:\bobsgame\src\gamelogic\town\petstore.cpp
+	"../../main.h"
+
+1316454272 source:q:\bobsgame\src\gamelogic\town\pizzaplace.cpp
+	"../../main.h"
+
+1316454272 source:q:\bobsgame\src\gamelogic\town\playground.cpp
+	"../../main.h"
+
+1316454272 source:q:\bobsgame\src\gamelogic\town\recordstore.cpp
+	"../../main.h"
+
+1316454531 source:q:\bobsgame\src\gamelogic\town\school.cpp
+	"../../main.h"
+
+1316454272 source:q:\bobsgame\src\gamelogic\town\tacoburger.cpp
+	"../../main.h"
+
+1315985644 source:q:\bobsgame\src\gamelogic\town\toolshed.cpp
+	"../../main.h"
+
+1316454272 source:q:\bobsgame\src\gamelogic\town\town.cpp
+	"../../main.h"
+
+1316454272 source:q:\bobsgame\src\gamelogic\town\videostore.cpp
+	"../../main.h"
+
+1316454272 source:q:\bobsgame\src\gamelogic\town\yuushouse.cpp
+	"../../main.h"
+
+1315947795 q:\bobsgame\src\engine\main\types.h
+
+1315988245 q:\bobsgame\src\engine\port\gfx_vars.h
+
+1316454272 source:q:\bobsgame\src\minigame\ping.cpp
+	"../main.h"
+
+1316454272 source:q:\bobsgame\src\minigame\ramio.cpp
+	"../main.h"
+
+1316454272 source:q:\bobsgame\src\minigame\tetrid.cpp
+	"../main.h"
+
+1316112618 q:\bobsgame\src\engine\main\misc.h
+
+1316454270 q:\bobsgame\src\engine\main\sound.h
+
+1315988680 q:\bobsgame\src\engine\main\tilemaps.h
+
+1316454270 q:\bobsgame\src\engine\main\sprites.h
+
+1316454270 source:q:\bobsgame\src\engine\main\misc.cpp
+	"../../main.h"
+
+1316454270 source:q:\bobsgame\src\engine\main\sound.cpp
+	"../../main.h"
+
+1316454270 source:q:\bobsgame\src\engine\main\sprites.cpp
+	"../../main.h"
+	"gfx_vars.h"
+
+1316454270 q:\bobsgame\src\engine\main\gfx_vars.h
+
+1316454270 source:q:\bobsgame\src\engine\main\tilemaps.cpp
+	"../../main.h"
+

@@ -1,0 +1,26 @@
+id ICON "icon.ico"
+
+1 VERSIONINFO
+FILEVERSION     1,0,0,0
+PRODUCTVERSION  1,0,0,0
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904E4"
+    BEGIN
+      VALUE "CompanyName", "Robert Pelloni LC"
+      VALUE "FileDescription", "bob's game"
+      VALUE "FileVersion", "1.0"
+      VALUE "InternalName", "bg"
+      VALUE "LegalCopyright", "Robert Pelloni"
+      VALUE "OriginalFilename", "bobsgame.exe"
+      VALUE "ProductName", "bob's game"
+      VALUE "ProductVersion", "1.0"
+    END
+  END
+
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x409, 1252
+  END
+END

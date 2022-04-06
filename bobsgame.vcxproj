@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="DebugVS|Win32">
+      <Configuration>DebugVS</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseVS|Win32">
+      <Configuration>ReleaseVS</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AF7EAEC1-0865-4133-9A48-C8097F619525}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>bobsgame</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugVS|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseVS|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='DebugVS|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='ReleaseVS|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugVS|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseVS|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugVS|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\SDL\sdl-visualstudio-2566\SDL\include;C:\SDL\SDL2_ttf-devel-2.0.12-VC\SDL2_ttf-2.0.12\include;C:\SDL\SDL2_mixer-devel-2.0.0-VC\SDL2_mixer-2.0.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\SDL\sdl-visualstudio-2566\SDL\lib\win32;C:\SDL\SDL2_ttf-devel-2.0.12-VC\SDL2_ttf-2.0.12\lib\x86;C:\SDL\SDL2_mixer-devel-2.0.0-VC\SDL2_mixer-2.0.0\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2main.lib;SDL2.lib;SDL2_mixer.lib;SDL2_ttf.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseVS|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\SDL\sdl-visualstudio-2566\SDL\include;C:\SDL\SDL2_ttf-devel-2.0.12-VC\SDL2_ttf-2.0.12\include;C:\SDL\SDL2_mixer-devel-2.0.0-VC\SDL2_mixer-2.0.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>C:\SDL\sdl-visualstudio-2566\SDL\lib\win32;C:\SDL\SDL2_ttf-devel-2.0.12-VC\SDL2_ttf-2.0.12\lib\x86;C:\SDL\SDL2_mixer-devel-2.0.0-VC\SDL2_mixer-2.0.0\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2main.lib;SDL2.lib;SDL2_mixer.lib;SDL2_ttf.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="src\engine\game.h" />
+    <ClInclude Include="src\engine\game\action.h" />
+    <ClInclude Include="src\engine\game\caption.h" />
+    <ClInclude Include="src\engine\game\clock.h" />
+    <ClInclude Include="src\engine\game\item.h" />
+    <ClInclude Include="src\engine\game\letterbox.h" />
+    <ClInclude Include="src\engine\game\map.h" />
+    <ClInclude Include="src\engine\game\music.h" />
+    <ClInclude Include="src\engine\game\npc.h" />
+    <ClInclude Include="src\engine\game\npccar.h" />
+    <ClInclude Include="src\engine\game\npcfuncs.h" />
+    <ClInclude Include="src\engine\game\npcrand.h" />
+    <ClInclude Include="src\engine\game\pathfind.h" />
+    <ClInclude Include="src\engine\game\player.h" />
+    <ClInclude Include="src\engine\game\save.h" />
+    <ClInclude Include="src\engine\game\start.h" />
+    <ClInclude Include="src\engine\game\txt.h" />
+    <ClInclude Include="src\engine\game\txtanswer.h" />
+    <ClInclude Include="src\engine\game\txtkeyboard.h" />
+    <ClInclude Include="src\engine\init\game_vars.h" />
+    <ClInclude Include="src\engine\main\controls.h" />
+    <ClInclude Include="src\engine\main\debug.h" />
+    <ClInclude Include="src\engine\main\error.h" />
+    <ClInclude Include="src\engine\main\gfx_vars.h" />
+    <ClInclude Include="src\engine\main\globals.h" />
+    <ClInclude Include="src\engine\main\hq2x_filter.h" />
+    <ClInclude Include="src\engine\main\misc.h" />
+    <ClInclude Include="src\engine\main\render.h" />
+    <ClInclude Include="src\engine\main\snes_ntsc_filter.h" />
+    <ClInclude Include="src\engine\main\sound.h" />
+    <ClInclude Include="src\engine\main\sprites.h" />
+    <ClInclude Include="src\engine\main\tilemaps.h" />
+    <ClInclude Include="src\engine\main\types.h" />
+    <ClInclude Include="src\gamelogic\changemap.h" />
+    <ClInclude Include="src\gamelogic\city\apartment.h" />
+    <ClInclude Include="src\gamelogic\city\bank.h" />
+    <ClInclude Include="src\gamelogic\city\casino.h" />
+    <ClInclude Include="src\gamelogic\city\city.h" />
+    <ClInclude Include="src\gamelogic\city\cityhall.h" />
+    <ClInclude Include="src\gamelogic\city\deli.h" />
+    <ClInclude Include="src\gamelogic\city\elevatedlifeplace.h" />
+    <ClInclude Include="src\gamelogic\city\fashionstore.h" />
+    <ClInclude Include="src\gamelogic\city\firestation.h" />
+    <ClInclude Include="src\gamelogic\city\groovyclub.h" />
+    <ClInclude Include="src\gamelogic\city\hospital.h" />
+    <ClInclude Include="src\gamelogic\city\hotel.h" />
+    <ClInclude Include="src\gamelogic\city\hourlymotel.h" />
+    <ClInclude Include="src\gamelogic\city\laundromat.h" />
+    <ClInclude Include="src\gamelogic\city\museum.h" />
+    <ClInclude Include="src\gamelogic\city\office.h" />
+    <ClInclude Include="src\gamelogic\city\partystore.h" />
+    <ClInclude Include="src\gamelogic\city\pawnshop.h" />
+    <ClInclude Include="src\gamelogic\city\policestation.h" />
+    <ClInclude Include="src\gamelogic\city\poolhall.h" />
+    <ClInclude Include="src\gamelogic\city\restaurant.h" />
+    <ClInclude Include="src\gamelogic\city\stadium.h" />
+    <ClInclude Include="src\gamelogic\city\thecafe.h" />
+    <ClInclude Include="src\gamelogic\intro\introtown.h" />
+    <ClInclude Include="src\gamelogic\intro\introyuushouse.h" />
+    <ClInclude Include="src\gamelogic\logicmethods.h" />
+    <ClInclude Include="src\gamelogic\other\castroom.h" />
+    <ClInclude Include="src\gamelogic\other\japanhouse.h" />
+    <ClInclude Include="src\gamelogic\other\meetingroom.h" />
+    <ClInclude Include="src\gamelogic\other\minigame.h" />
+    <ClInclude Include="src\gamelogic\title\demoend.h" />
+    <ClInclude Include="src\gamelogic\title\license.h" />
+    <ClInclude Include="src\gamelogic\title\titlescreen.h" />
+    <ClInclude Include="src\gamelogic\title\warning.h" />
+    <ClInclude Include="src\gamelogic\town\arcade.h" />
+    <ClInclude Include="src\gamelogic\town\beautysalon.h" />
+    <ClInclude Include="src\gamelogic\town\bookstore.h" />
+    <ClInclude Include="src\gamelogic\town\church.h" />
+    <ClInclude Include="src\gamelogic\town\clubhouse.h" />
+    <ClInclude Include="src\gamelogic\town\coffeeshop.h" />
+    <ClInclude Include="src\gamelogic\town\crazyladyhouse.h" />
+    <ClInclude Include="src\gamelogic\town\departmentstore.h" />
+    <ClInclude Include="src\gamelogic\town\doctorsoffice.h" />
+    <ClInclude Include="src\gamelogic\town\electronicsstore.h" />
+    <ClInclude Include="src\gamelogic\town\friendshouse.h" />
+    <ClInclude Include="src\gamelogic\town\gamestore.h" />
+    <ClInclude Include="src\gamelogic\town\gasstation.h" />
+    <ClInclude Include="src\gamelogic\town\generichouses.h" />
+    <ClInclude Include="src\gamelogic\town\grocerystore.h" />
+    <ClInclude Include="src\gamelogic\town\mansion.h" />
+    <ClInclude Include="src\gamelogic\town\movietheater.h" />
+    <ClInclude Include="src\gamelogic\town\petstore.h" />
+    <ClInclude Include="src\gamelogic\town\pizzaplace.h" />
+    <ClInclude Include="src\gamelogic\town\playground.h" />
+    <ClInclude Include="src\gamelogic\town\recordstore.h" />
+    <ClInclude Include="src\gamelogic\town\school.h" />
+    <ClInclude Include="src\gamelogic\town\tacoburger.h" />
+    <ClInclude Include="src\gamelogic\town\toolshed.h" />
+    <ClInclude Include="src\gamelogic\town\town.h" />
+    <ClInclude Include="src\gamelogic\town\videostore.h" />
+    <ClInclude Include="src\gamelogic\town\yuushouse.h" />
+    <ClInclude Include="src\GL\glew.h" />
+    <ClInclude Include="src\GL\glxew.h" />
+    <ClInclude Include="src\GL\wglew.h" />
+    <ClInclude Include="src\main.h" />
+    <ClInclude Include="src\minigame\ping.h" />
+    <ClInclude Include="src\minigame\ramio.h" />
+    <ClInclude Include="src\minigame\tetrid.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\engine\game.cpp" />
+    <ClCompile Include="src\engine\game\action.cpp" />
+    <ClCompile Include="src\engine\game\caption.cpp" />
+    <ClCompile Include="src\engine\game\clock.cpp" />
+    <ClCompile Include="src\engine\game\item.cpp" />
+    <ClCompile Include="src\engine\game\letterbox.cpp" />
+    <ClCompile Include="src\engine\game\map.cpp" />
+    <ClCompile Include="src\engine\game\music.cpp" />
+    <ClCompile Include="src\engine\game\npc.cpp" />
+    <ClCompile Include="src\engine\game\npccar.cpp" />
+    <ClCompile Include="src\engine\game\npcfuncs.cpp" />
+    <ClCompile Include="src\engine\game\npcrand.cpp" />
+    <ClCompile Include="src\engine\game\player.cpp" />
+    <ClCompile Include="src\engine\game\save.cpp" />
+    <ClCompile Include="src\engine\game\start.cpp" />
+    <ClCompile Include="src\engine\game\txt.cpp" />
+    <ClCompile Include="src\engine\game\txtanswer.cpp" />
+    <ClCompile Include="src\engine\game\txtkeyboard.cpp" />
+    <ClCompile Include="src\engine\main\controls.cpp" />
+    <ClCompile Include="src\engine\main\debug.cpp" />
+    <ClCompile Include="src\engine\main\error.cpp" />
+    <ClCompile Include="src\engine\main\globals.cpp" />
+    <ClCompile Include="src\engine\main\misc.cpp" />
+    <ClCompile Include="src\engine\main\render.cpp" />
+    <ClCompile Include="src\engine\main\sound.cpp" />
+    <ClCompile Include="src\engine\main\sprites.cpp" />
+    <ClCompile Include="src\engine\main\tilemaps.cpp" />
+    <ClCompile Include="src\gamelogic\changemap.cpp" />
+    <ClCompile Include="src\gamelogic\city\apartment.cpp" />
+    <ClCompile Include="src\gamelogic\city\bank.cpp" />
+    <ClCompile Include="src\gamelogic\city\casino.cpp" />
+    <ClCompile Include="src\gamelogic\city\city.cpp" />
+    <ClCompile Include="src\gamelogic\city\cityhall.cpp" />
+    <ClCompile Include="src\gamelogic\city\deli.cpp" />
+    <ClCompile Include="src\gamelogic\city\elevatedlifeplace.cpp" />
+    <ClCompile Include="src\gamelogic\city\fashionstore.cpp" />
+    <ClCompile Include="src\gamelogic\city\firestation.cpp" />
+    <ClCompile Include="src\gamelogic\city\groovyclub.cpp" />
+    <ClCompile Include="src\gamelogic\city\hospital.cpp" />
+    <ClCompile Include="src\gamelogic\city\hotel.cpp" />
+    <ClCompile Include="src\gamelogic\city\hourlymotel.cpp" />
+    <ClCompile Include="src\gamelogic\city\laundromat.cpp" />
+    <ClCompile Include="src\gamelogic\city\museum.cpp" />
+    <ClCompile Include="src\gamelogic\city\office.cpp" />
+    <ClCompile Include="src\gamelogic\city\partystore.cpp" />
+    <ClCompile Include="src\gamelogic\city\pawnshop.cpp" />
+    <ClCompile Include="src\gamelogic\city\policestation.cpp" />
+    <ClCompile Include="src\gamelogic\city\poolhall.cpp" />
+    <ClCompile Include="src\gamelogic\city\restaurant.cpp" />
+    <ClCompile Include="src\gamelogic\city\stadium.cpp" />
+    <ClCompile Include="src\gamelogic\city\thecafe.cpp" />
+    <ClCompile Include="src\gamelogic\intro\introtown.cpp" />
+    <ClCompile Include="src\gamelogic\intro\introyuushouse.cpp" />
+    <ClCompile Include="src\gamelogic\other\castroom.cpp" />
+    <ClCompile Include="src\gamelogic\other\japanhouse.cpp" />
+    <ClCompile Include="src\gamelogic\other\meetingroom.cpp" />
+    <ClCompile Include="src\gamelogic\other\minigame.cpp" />
+    <ClCompile Include="src\gamelogic\title\demoend.cpp" />
+    <ClCompile Include="src\gamelogic\title\license.cpp" />
+    <ClCompile Include="src\gamelogic\title\titlescreen.cpp" />
+    <ClCompile Include="src\gamelogic\title\warning.cpp" />
+    <ClCompile Include="src\gamelogic\town\arcade.cpp" />
+    <ClCompile Include="src\gamelogic\town\beautysalon.cpp" />
+    <ClCompile Include="src\gamelogic\town\bookstore.cpp" />
+    <ClCompile Include="src\gamelogic\town\church.cpp" />
+    <ClCompile Include="src\gamelogic\town\clubhouse.cpp" />
+    <ClCompile Include="src\gamelogic\town\coffeeshop.cpp" />
+    <ClCompile Include="src\gamelogic\town\crazyladyhouse.cpp" />
+    <ClCompile Include="src\gamelogic\town\departmentstore.cpp" />
+    <ClCompile Include="src\gamelogic\town\doctorsoffice.cpp" />
+    <ClCompile Include="src\gamelogic\town\electronicsstore.cpp" />
+    <ClCompile Include="src\gamelogic\town\friendshouse.cpp" />
+    <ClCompile Include="src\gamelogic\town\gamestore.cpp" />
+    <ClCompile Include="src\gamelogic\town\gasstation.cpp" />
+    <ClCompile Include="src\gamelogic\town\generichouses.cpp" />
+    <ClCompile Include="src\gamelogic\town\grocerystore.cpp" />
+    <ClCompile Include="src\gamelogic\town\mansion.cpp" />
+    <ClCompile Include="src\gamelogic\town\movietheater.cpp" />
+    <ClCompile Include="src\gamelogic\town\petstore.cpp" />
+    <ClCompile Include="src\gamelogic\town\pizzaplace.cpp" />
+    <ClCompile Include="src\gamelogic\town\playground.cpp" />
+    <ClCompile Include="src\gamelogic\town\recordstore.cpp" />
+    <ClCompile Include="src\gamelogic\town\school.cpp" />
+    <ClCompile Include="src\gamelogic\town\tacoburger.cpp" />
+    <ClCompile Include="src\gamelogic\town\toolshed.cpp" />
+    <ClCompile Include="src\gamelogic\town\town.cpp" />
+    <ClCompile Include="src\gamelogic\town\videostore.cpp" />
+    <ClCompile Include="src\gamelogic\town\yuushouse.cpp" />
+    <ClCompile Include="src\glew.c" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\minigame\microgame.cpp" />
+    <ClCompile Include="src\minigame\ping.cpp" />
+    <ClCompile Include="src\minigame\platformexplore.cpp" />
+    <ClCompile Include="src\minigame\platformjump.cpp" />
+    <ClCompile Include="src\minigame\ramio.cpp" />
+    <ClCompile Include="src\minigame\shootergame.cpp" />
+    <ClCompile Include="src\minigame\tetrid.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="bobsgame.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="bobsgame.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

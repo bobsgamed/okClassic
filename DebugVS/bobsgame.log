@@ -1,0 +1,112 @@
+﻿Build started 10/19/2015 3:29:28 AM.
+     1>Project "C:\Users\Administrator\workspaceCDT\bobsgame\bobsgame.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\SDL\sdl-visualstudio-2566\SDL\include" /I"C:\SDL\SDL2_ttf-devel-2.0.12-VC\SDL2_ttf-2.0.12\include" /I"C:\SDL\SDL2_mixer-devel-2.0.0-VC\SDL2_mixer-2.0.0\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"DebugVS\\" /Fd"DebugVS\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt src\main.cpp
+         main.cpp
+     1>c:\users\administrator\workspacecdt\bobsgame\src\main.cpp(140): warning C4244: '=': conversion from 'LONGLONG' to 'int', possible loss of data
+     1>c:\users\administrator\workspacecdt\bobsgame\src\main.cpp(538): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\workspaceCDT\bobsgame\DebugVS\bobsgame.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\SDL\sdl-visualstudio-2566\SDL\lib\win32" /LIBPATH:"C:\SDL\SDL2_ttf-devel-2.0.12-VC\SDL2_ttf-2.0.12\lib\x86" /LIBPATH:"C:\SDL\SDL2_mixer-devel-2.0.0-VC\SDL2_mixer-2.0.0\lib\x86" SDL2main.lib SDL2.lib SDL2_mixer.lib SDL2_ttf.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Administrator\workspaceCDT\bobsgame\DebugVS\bobsgame.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\workspaceCDT\bobsgame\DebugVS\bobsgame.lib" /MACHINE:X86 DebugVS\bobsgame.res
+         DebugVS\game.obj
+         DebugVS\action.obj
+         DebugVS\caption.obj
+         DebugVS\clock.obj
+         DebugVS\item.obj
+         DebugVS\letterbox.obj
+         DebugVS\map.obj
+         DebugVS\music.obj
+         DebugVS\npc.obj
+         DebugVS\npccar.obj
+         DebugVS\npcfuncs.obj
+         DebugVS\npcrand.obj
+         DebugVS\player.obj
+         DebugVS\save.obj
+         DebugVS\start.obj
+         DebugVS\txt.obj
+         DebugVS\txtanswer.obj
+         DebugVS\txtkeyboard.obj
+         DebugVS\controls.obj
+         DebugVS\debug.obj
+         DebugVS\error.obj
+         DebugVS\globals.obj
+         DebugVS\misc.obj
+         DebugVS\render.obj
+         DebugVS\sound.obj
+         DebugVS\sprites.obj
+         DebugVS\tilemaps.obj
+         DebugVS\changemap.obj
+         DebugVS\apartment.obj
+         DebugVS\bank.obj
+         DebugVS\casino.obj
+         DebugVS\city.obj
+         DebugVS\cityhall.obj
+         DebugVS\deli.obj
+         DebugVS\elevatedlifeplace.obj
+         DebugVS\fashionstore.obj
+         DebugVS\firestation.obj
+         DebugVS\groovyclub.obj
+         DebugVS\hospital.obj
+         DebugVS\hotel.obj
+         DebugVS\hourlymotel.obj
+         DebugVS\laundromat.obj
+         DebugVS\museum.obj
+         DebugVS\office.obj
+         DebugVS\partystore.obj
+         DebugVS\pawnshop.obj
+         DebugVS\policestation.obj
+         DebugVS\poolhall.obj
+         DebugVS\restaurant.obj
+         DebugVS\stadium.obj
+         DebugVS\thecafe.obj
+         DebugVS\introtown.obj
+         DebugVS\introyuushouse.obj
+         DebugVS\castroom.obj
+         DebugVS\japanhouse.obj
+         DebugVS\meetingroom.obj
+         DebugVS\minigame.obj
+         DebugVS\demoend.obj
+         DebugVS\license.obj
+         DebugVS\titlescreen.obj
+         DebugVS\warning.obj
+         DebugVS\arcade.obj
+         DebugVS\beautysalon.obj
+         DebugVS\bookstore.obj
+         DebugVS\church.obj
+         DebugVS\clubhouse.obj
+         DebugVS\coffeeshop.obj
+         DebugVS\crazyladyhouse.obj
+         DebugVS\departmentstore.obj
+         DebugVS\doctorsoffice.obj
+         DebugVS\electronicsstore.obj
+         DebugVS\friendshouse.obj
+         DebugVS\gamestore.obj
+         DebugVS\gasstation.obj
+         DebugVS\generichouses.obj
+         DebugVS\grocerystore.obj
+         DebugVS\mansion.obj
+         DebugVS\movietheater.obj
+         DebugVS\petstore.obj
+         DebugVS\pizzaplace.obj
+         DebugVS\playground.obj
+         DebugVS\recordstore.obj
+         DebugVS\school.obj
+         DebugVS\tacoburger.obj
+         DebugVS\toolshed.obj
+         DebugVS\town.obj
+         DebugVS\videostore.obj
+         DebugVS\yuushouse.obj
+         DebugVS\glew.obj
+         DebugVS\main.obj
+         DebugVS\microgame.obj
+         DebugVS\ping.obj
+         DebugVS\platformexplore.obj
+         DebugVS\platformjump.obj
+         DebugVS\ramio.obj
+         DebugVS\shootergame.obj
+         DebugVS\tetrid.obj
+         bobsgame.vcxproj -> C:\Users\Administrator\workspaceCDT\bobsgame\DebugVS\bobsgame.exe
+     1>Done Building Project "C:\Users\Administrator\workspaceCDT\bobsgame\bobsgame.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.07
